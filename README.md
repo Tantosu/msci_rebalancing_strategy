@@ -1,1 +1,1 @@
-# msci_rebalancing_project
+# msci_rebalancing_strategy
