@@ -1,0 +1,3 @@
+strategy_family,country,event_type,strategy,n_trades,cumulative_net_return,average_event_net_return,hit_rate_net,volatility_event_net,sharpe_annualized_net,max_drawdown_net,average_holding_days,turnover
+basic_event_timing,USA,inclusion,announce_d+0_to_d+3,170,17.850103475644037,0.018813370452887453,0.6176470588235294,0.05464009205079541,2.7952666156061308,-0.2660490304600409,3.823529411764706,340.0
+flow_neutral_mean_reversion,India,inclusion,flow_neutral_reversal_short_top50_effective_d+1_to_d+5,23,0.1398454332358472,0.008074215099748237,0.4782608695652174,0.072193749491599,0.8009873982705238,-0.18457953657819726,4.913043478260869,46.0

@@ -1,0 +1,776 @@
+country,security_name,event_type,ticker_event,ticker_mapping,status,score,query_used,candidate_name,exchange,reason,ticker,price_fetch_status,rows,price_fetch_reason,diagnosis
+India,GRASIM INDUSTRIES,inclusion,GRASIM.NS,GRASIM.NS,mapped_manual_alias,1.0,manual_alias,,,,GRASIM.NS,downloaded,67.0,,mapped_and_priced
+USA,ENDO INTERNATIONAL,deletion,ENDP,ENDP,existing_repo_mapping,1.0,existing_repo_mapping,,,,ENDP,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,ADVANCED MICRO DEVICES,inclusion,AMD,AMD,existing_repo_mapping,1.0,existing_repo_mapping,,,,AMD,downloaded,66.0,,mapped_and_priced
+India,DIVI'S LABORATORIES,deletion,DIVISLAB.NS,DIVISLAB.NS,mapped_manual_alias,1.0,manual_alias,,,,DIVISLAB.NS,downloaded,437.0,,mapped_and_priced
+India,INDIAN OIL CORP,inclusion,IOC.NS,IOC.NS,mapped_manual_alias,1.0,manual_alias,,,,IOC.NS,downloaded,65.0,,mapped_and_priced
+India,RURAL ELECTRIFICATION CO,inclusion,RECLTD.NS,RECLTD.NS,mapped_manual_alias,1.0,manual_alias,,,,RECLTD.NS,cached,65.0,,mapped_and_priced
+Korea,DOOSAN BOBCAT,inclusion,241560.KS,241560.KS,mapped_manual_alias,1.0,manual_alias,,,,241560.KS,downloaded,63.0,,mapped_and_priced
+Korea,MEDY-TOX,inclusion,086900.KQ,086900.KQ,mapped_manual_alias,1.0,manual_alias,,,,086900.KQ,downloaded,795.0,,mapped_and_priced
+Korea,PANOCEAN,inclusion,028670.KS,028670.KS,mapped_manual_alias,1.0,manual_alias,,,,028670.KS,downloaded,1660.0,,mapped_and_priced
+USA,CALPINE CORP,deletion,CPN,CPN,existing_repo_mapping,1.0,existing_repo_mapping,,,,CPN,downloaded,66.0,,mapped_and_priced
+USA,DUN & BRADSTREET CORP,deletion,DNB,DNB,existing_repo_mapping,1.0,existing_repo_mapping,,,,DNB,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,EDGEWELL PERSONAL CARE,deletion,EPC,EPC,existing_repo_mapping,1.0,existing_repo_mapping,,,,EPC,downloaded,66.0,,mapped_and_priced
+USA,FRONTIER COMMUNICATIONS,deletion,FTR,FTR,existing_repo_mapping,1.0,existing_repo_mapping,,,,FTR,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,LIBERTY LILAC C,deletion,LILAK,LILAK,existing_repo_mapping,1.0,existing_repo_mapping,,,,LILAK,downloaded,66.0,,mapped_and_priced
+USA,RITE AID CORP,deletion,RAD,RAD,existing_repo_mapping,1.0,existing_repo_mapping,,,,RAD,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,SOUTHWESTERN ENERGY CO,deletion,SWN,SWN,existing_repo_mapping,1.0,existing_repo_mapping,,,,SWN,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,ALLEGION,inclusion,ALLE,ALLE,existing_repo_mapping,1.0,existing_repo_mapping,,,,ALLE,downloaded,66.0,,mapped_and_priced
+USA,AMERICAN FINANCIAL GROUP,inclusion,AFGB,AFGB,existing_repo_mapping,1.0,existing_repo_mapping,,,,AFGB,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,ARISTA NETWORKS,inclusion,ANET,ANET,existing_repo_mapping,1.0,existing_repo_mapping,,,,ANET,downloaded,66.0,,mapped_and_priced
+USA,ATHENE HLDG LTD CLASS A,inclusion,ATHS,ATHS,existing_repo_mapping,1.0,existing_repo_mapping,,,,ATHS,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,CBOE HOLDINGS,inclusion,CBOE,CBOE,existing_repo_mapping,1.0,existing_repo_mapping,,,,CBOE,downloaded,66.0,,mapped_and_priced
+USA,COMMSCOPE HOLDING CO,inclusion,,,unsupported_country,,,,,No country suffix rules configured.,,,,,unsupported_country
+USA,EAST WEST BANCORP,inclusion,EWBC,EWBC,existing_repo_mapping,1.0,existing_repo_mapping,,,,EWBC,downloaded,949.0,,mapped_and_priced
+USA,HD SUPPLY HOLDINGS,inclusion,HDS,HDS,existing_repo_mapping,1.0,existing_repo_mapping,,,,HDS,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,HENRY (JACK) & ASSOCIATE,inclusion,JKHY,JKHY,existing_repo_mapping,1.0,existing_repo_mapping,,,,JKHY,downloaded,66.0,,mapped_and_priced
+USA,IDEX CORP,inclusion,IDEX,IDEX,existing_repo_mapping,1.0,existing_repo_mapping,,,,IDEX,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,LEIDOS HOLDINGS,inclusion,LDOS,LDOS,existing_repo_mapping,1.0,existing_repo_mapping,,,,LDOS,downloaded,66.0,,mapped_and_priced
+USA,LENNOX INTERNATIONAL,inclusion,LII,LII,existing_repo_mapping,1.0,existing_repo_mapping,,,,LII,downloaded,66.0,,mapped_and_priced
+USA,ROLLINS,inclusion,ROL,ROL,existing_repo_mapping,1.0,existing_repo_mapping,,,,ROL,downloaded,66.0,,mapped_and_priced
+USA,SS&C TECHNOLOGIES HLDGS,inclusion,SSNC,SSNC,existing_repo_mapping,1.0,existing_repo_mapping,,,,SSNC,downloaded,66.0,,mapped_and_priced
+USA,STEEL DYNAMICS,inclusion,STLD,STLD,existing_repo_mapping,1.0,existing_repo_mapping,,,,STLD,downloaded,66.0,,mapped_and_priced
+USA,SVB FINANCIAL GROUP,inclusion,SIVB,SIVB,existing_repo_mapping,1.0,existing_repo_mapping,,,,SIVB,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,TESARO,inclusion,TSRO,TSRO,existing_repo_mapping,1.0,existing_repo_mapping,,,,TSRO,downloaded,317.0,,mapped_and_priced
+USA,VAIL RESORTS,inclusion,MTN,MTN,existing_repo_mapping,1.0,existing_repo_mapping,,,,MTN,downloaded,1827.0,,mapped_and_priced
+USA,VEEVA SYSTEMS A,inclusion,VEEV,VEEV,existing_repo_mapping,1.0,existing_repo_mapping,,,,VEEV,downloaded,66.0,,mapped_and_priced
+USA,ZIONS BANCORP,inclusion,ZIONP,ZIONP,existing_repo_mapping,1.0,existing_repo_mapping,,,,ZIONP,downloaded,949.0,,mapped_and_priced
+Korea,LG UPLUS,deletion,032640.KS,032640.KS,mapped_manual_alias,1.0,manual_alias,,,,032640.KS,downloaded,312.0,,mapped_and_priced
+India,APOLLO HOSPITALS,deletion,APOLLOHOSP.NS,APOLLOHOSP.NS,mapped_manual_alias,1.0,manual_alias,,,,APOLLOHOSP.NS,downloaded,806.0,,mapped_and_priced
+India,BRITANNIA INDUSTRIES,inclusion,BRITANNIA.NS,BRITANNIA.NS,mapped_manual_alias,1.0,manual_alias,,,,BRITANNIA.NS,downloaded,67.0,,mapped_and_priced
+India,PETRONET LNG,inclusion,PETRONET.NS,PETRONET.NS,mapped_manual_alias,1.0,manual_alias,,,,PETRONET.NS,cached,67.0,,mapped_and_priced
+India,VAKRANGEE,inclusion,VAKRANGEE.NS,VAKRANGEE.NS,mapped_manual_alias,1.0,manual_alias,,,,VAKRANGEE.NS,cached,190.0,,mapped_and_priced
+Indonesia,LIPPO KARAWACI TBK,deletion,LPKR.JK,LPKR.JK,mapped_manual_alias,1.0,manual_alias,,,,LPKR.JK,downloaded,69.0,,mapped_and_priced
+Indonesia,MEDIA NUSANTARA CITRA,deletion,MNCN.JK,MNCN.JK,mapped_manual_alias,1.0,manual_alias,,,,MNCN.JK,downloaded,69.0,,mapped_and_priced
+Indonesia,SUMMARECON AGUNG,deletion,SMRA.JK,SMRA.JK,mapped_manual_alias,1.0,manual_alias,,,,SMRA.JK,cached,69.0,,mapped_and_priced
+Indonesia,BANK TABUNGAN NEGARA,inclusion,BBTN.JK,BBTN.JK,mapped_manual_alias,1.0,manual_alias,,,,BBTN.JK,downloaded,708.0,,mapped_and_priced
+Korea,CELLTRION HEALTHCARE,inclusion,091990.KQ,091990.KQ,mapped_manual_alias,1.0,manual_alias,,,,091990.KQ,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+Korea,ING LIFE INSURANCE KOREA,inclusion,079440.KS,079440.KS,mapped_manual_alias,1.0,manual_alias,,,,079440.KS,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+Korea,SILLAJEN,inclusion,215600.KQ,215600.KQ,mapped_manual_alias,1.0,manual_alias,,,,215600.KQ,downloaded,547.0,,mapped_and_priced
+USA,BED BATH & BEYOND,deletion,BBBY,BBBY,existing_repo_mapping,1.0,existing_repo_mapping,,,,BBBY,downloaded,68.0,,mapped_and_priced
+USA,CORE LABORATORIES,deletion,CLB,CLB,existing_repo_mapping,1.0,existing_repo_mapping,,,,CLB,downloaded,68.0,,mapped_and_priced
+USA,DEXCOM,deletion,DXCM,DXCM,existing_repo_mapping,1.0,existing_repo_mapping,,,,DXCM,downloaded,319.0,,mapped_and_priced
+USA,DICKS SPORTING GOODS,deletion,DKS,DKS,existing_repo_mapping,1.0,existing_repo_mapping,,,,DKS,downloaded,1449.0,,mapped_and_priced
+USA,FOOT LOCKER,deletion,FL,FL,existing_repo_mapping,1.0,existing_repo_mapping,,,,FL,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,MALLINCKRODT,deletion,MNK,MNK,existing_repo_mapping,1.0,existing_repo_mapping,,,,MNK,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,MEDNAX,deletion,MD,MD,existing_repo_mapping,1.0,existing_repo_mapping,,,,MD,downloaded,68.0,,mapped_and_priced
+USA,MURPHY OIL CORP,deletion,MUR,MUR,existing_repo_mapping,1.0,existing_repo_mapping,,,,MUR,downloaded,68.0,,mapped_and_priced
+USA,NAVIENT CORP,deletion,NAVI,NAVI,existing_repo_mapping,1.0,existing_repo_mapping,,,,NAVI,downloaded,68.0,,mapped_and_priced
+USA,NUANCE COMMUNICATIONS,deletion,NUAN,NUAN,existing_repo_mapping,1.0,existing_repo_mapping,,,,NUAN,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,PATTERSON COS,deletion,,,unsupported_country,,,,,No country suffix rules configured.,,,,,unsupported_country
+USA,SIGNET JEWELERS (US),deletion,SIG,SIG,existing_repo_mapping,1.0,existing_repo_mapping,,,,SIG,downloaded,68.0,,mapped_and_priced
+USA,WEATHERFORD INTL,deletion,WFRD,WFRD,existing_repo_mapping,1.0,existing_repo_mapping,,,,WFRD,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,ALNYLAM PHARMACEUTICALS,inclusion,ALNY,ALNY,existing_repo_mapping,1.0,existing_repo_mapping,,,,ALNY,downloaded,68.0,,mapped_and_priced
+USA,CHEMOURS CO,inclusion,CC,CC,existing_repo_mapping,1.0,existing_repo_mapping,,,,CC,downloaded,503.0,,mapped_and_priced
+USA,COGNEX CORP,inclusion,CGNX,CGNX,existing_repo_mapping,1.0,existing_repo_mapping,,,,CGNX,downloaded,1577.0,,mapped_and_priced
+USA,IAC/INTERACTIVECORP A,inclusion,IAC,IAC,existing_repo_mapping,1.0,existing_repo_mapping,,,,IAC,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,IPG PHOTONICS,inclusion,IPGP,IPGP,existing_repo_mapping,1.0,existing_repo_mapping,,,,IPGP,downloaded,1199.0,,mapped_and_priced
+USA,LIBERTY FORMULA ONE C,inclusion,LBRT,LBRT,existing_repo_mapping,1.0,existing_repo_mapping,,,,LBRT,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,LIVE NATION ENTMT,inclusion,LYV,LYV,existing_repo_mapping,1.0,existing_repo_mapping,,,,LYV,downloaded,68.0,,mapped_and_priced
+USA,OLD DOMINION FREIGHT,inclusion,,,unsupported_country,,,,,No country suffix rules configured.,,,,,unsupported_country
+USA,OWENS CORNING,inclusion,OC,OC,existing_repo_mapping,1.0,existing_repo_mapping,,,,OC,downloaded,68.0,,mapped_and_priced
+USA,SPIRIT AEROSYSTEMS A,inclusion,SPR,SPR,existing_repo_mapping,1.0,existing_repo_mapping,,,,SPR,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,SQUARE,inclusion,,,unsupported_country,,,,,No country suffix rules configured.,,,,,unsupported_country
+USA,TAKE-TWO INTERACTIVE SOF,inclusion,,,unsupported_country,,,,,No country suffix rules configured.,,,,,unsupported_country
+USA,TRANSUNION,inclusion,TRU,TRU,existing_repo_mapping,1.0,existing_repo_mapping,,,,TRU,downloaded,68.0,,mapped_and_priced
+USA,VISTRA ENERGY,inclusion,VST,VST,existing_repo_mapping,1.0,existing_repo_mapping,,,,VST,downloaded,68.0,,mapped_and_priced
+India,ACC,deletion,ACC.NS,ACC.NS,mapped_manual_alias,1.0,manual_alias,,,,ACC.NS,downloaded,1363.0,,mapped_and_priced
+India,IDFC BANK,deletion,IDFCFIRSTB.NS,IDFCFIRSTB.NS,mapped_yahoo_search,0.6714,IDFC,IDFC FIRST BANK LIMITED,NSI,,IDFCFIRSTB.NS,downloaded,1363.0,,mapped_and_priced
+India,POWER FINANCE CORP,deletion,PFC.NS,PFC.NS,mapped_manual_alias,1.0,manual_alias,,,,PFC.NS,cached,1363.0,,mapped_and_priced
+India,TATA MOTORS A,deletion,TATAMTRDVR.NS,TATAMTRDVR.NS,mapped_manual_alias,1.0,manual_alias,,,,TATAMTRDVR.NS,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+India,VAKRANGEE,deletion,VAKRANGEE.NS,VAKRANGEE.NS,mapped_manual_alias,1.0,manual_alias,,,,VAKRANGEE.NS,cached,190.0,,mapped_and_priced
+India,AVENUE SUPERMARTS,inclusion,DMART.NS,DMART.NS,mapped_manual_alias,1.0,manual_alias,,,,DMART.NS,downloaded,66.0,,mapped_and_priced
+India,INTERGLOBE AVIATION,inclusion,INDIGO.NS,INDIGO.NS,mapped_manual_alias,1.0,manual_alias,,,,INDIGO.NS,downloaded,66.0,,mapped_and_priced
+India,PIDILITE INDUSTRIES,inclusion,PIDILITIND.NS,PIDILITIND.NS,mapped_manual_alias,1.0,manual_alias,,,,PIDILITIND.NS,cached,66.0,,mapped_and_priced
+India,POWER GRID CORP OF INDIA,inclusion,POWERGRID.NS,POWERGRID.NS,mapped_manual_alias,1.0,manual_alias,,,,POWERGRID.NS,cached,66.0,,mapped_and_priced
+Indonesia,XL AXIATA TBK,deletion,EXCL.JK,EXCL.JK,mapped_manual_alias,1.0,manual_alias,,,,EXCL.JK,downloaded,702.0,,mapped_and_priced
+Indonesia,INDAH KIAT PULP & PAPER,inclusion,INKP.JK,INKP.JK,mapped_manual_alias,1.0,manual_alias,,,,INKP.JK,downloaded,1728.0,,mapped_and_priced
+Korea,HANWHA TECHWIN CO,deletion,000370.KS,000370.KS,mapped_yahoo_search,0.8306,HANWHA,Hanwha General Ins,KSC,,000370.KS,downloaded,64.0,,mapped_and_priced
+Korea,HYUNDAI WIA CORP,deletion,011210.KS,011210.KS,mapped_yahoo_search,1.0833,HYUNDAI WIA CORP,HYUNDAI WIA,KSC,,011210.KS,downloaded,64.0,,mapped_and_priced
+Korea,SK NETWORKS,deletion,001740.KS,001740.KS,mapped_yahoo_search,1.25,SK NETWORKS,SKNetworks,KSC,,001740.KS,downloaded,64.0,,mapped_and_priced
+Korea,CELLTRION PHARM,inclusion,068760.KQ,068760.KQ,mapped_yahoo_search,1.03,CELLTRION PHARM,Celltrionph,KOE,,068760.KQ,downloaded,1660.0,,mapped_and_priced
+Korea,HLB,inclusion,028300.KQ,028300.KQ,mapped_yahoo_search,1.15,HLB,HLB,KOE,,028300.KQ,downloaded,64.0,,mapped_and_priced
+Korea,PEARLABYSS,inclusion,263750.KQ,263750.KQ,mapped_yahoo_search,1.15,PEARLABYSS,PearlAbyss,KOE,,263750.KQ,downloaded,1479.0,,mapped_and_priced
+Korea,SAMSUNG ENGINEERING CO,inclusion,005930.KS,005930.KS,mapped_yahoo_search,0.8952,SAMSUNG,SamsungElec,KSC,,005930.KS,downloaded,64.0,,mapped_and_priced
+Korea,VIROMED CO,inclusion,,,no_country_candidate,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+USA,AUTONATION,deletion,AN,AN,existing_repo_mapping,1.0,existing_repo_mapping,,,,AN,downloaded,67.0,,mapped_and_priced
+USA,BRIXMOR PROPERTY GROUP,deletion,BRX,BRX,existing_repo_mapping,1.0,existing_repo_mapping,,,,BRX,downloaded,67.0,,mapped_and_priced
+USA,COLONY NORTHSTAR A,deletion,CLNS,CLNS,existing_repo_mapping,1.0,existing_repo_mapping,,,,CLNS,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,ENVISION HEALTHCARE CORP,deletion,EVHC,EVHC,existing_repo_mapping,1.0,existing_repo_mapping,,,,EVHC,downloaded,67.0,,mapped_and_priced
+USA,MACQUARIE INFRA CORP,deletion,MIC,MIC,existing_repo_mapping,1.0,existing_repo_mapping,,,,MIC,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,RANGE RESOURCES CORP,deletion,RRC,RRC,existing_repo_mapping,1.0,existing_repo_mapping,,,,RRC,downloaded,67.0,,mapped_and_priced
+USA,SPECTRUM BRANDS,deletion,SPB,SPB,existing_repo_mapping,1.0,existing_repo_mapping,,,,SPB,downloaded,67.0,,mapped_and_priced
+USA,TESARO,deletion,TSRO,TSRO,existing_repo_mapping,1.0,existing_repo_mapping,,,,TSRO,downloaded,317.0,,mapped_and_priced
+USA,WR GRACE & CO,deletion,GRA,GRA,existing_repo_mapping,1.0,existing_repo_mapping,,,,GRA,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,ABIOMED,inclusion,ABMD,ABMD,existing_repo_mapping,1.0,existing_repo_mapping,,,,ABMD,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,COPART,inclusion,CPRT,CPRT,existing_repo_mapping,1.0,existing_repo_mapping,,,,CPRT,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,GODADDY A,inclusion,GDDY,GDDY,existing_repo_mapping,1.0,existing_repo_mapping,,,,GDDY,downloaded,67.0,,mapped_and_priced
+USA,KEYSIGHT TECHNOLOGIES,inclusion,KEYS,KEYS,existing_repo_mapping,1.0,existing_repo_mapping,,,,KEYS,downloaded,67.0,,mapped_and_priced
+USA,NEKTAR THERAPEUTICS,inclusion,NKTR,NKTR,existing_repo_mapping,1.0,existing_repo_mapping,,,,NKTR,downloaded,442.0,,mapped_and_priced
+USA,ON SEMICONDUCTOR CORP,inclusion,ON,ON,existing_repo_mapping,1.0,existing_repo_mapping,,,,ON,downloaded,67.0,,mapped_and_priced
+USA,WESTLAKE CHEMICAL CORP,inclusion,WLK,WLK,existing_repo_mapping,1.0,existing_repo_mapping,,,,WLK,downloaded,1826.0,,mapped_and_priced
+USA,XPO LOGISTICS,inclusion,XPO,XPO,existing_repo_mapping,1.0,existing_repo_mapping,,,,XPO,downloaded,67.0,,mapped_and_priced
+Indonesia,AKR CORPORINDO,deletion,AKRA.JK,AKRA.JK,mapped_manual_alias,1.0,manual_alias,,,,AKRA.JK,downloaded,70.0,,mapped_and_priced
+Korea,LG UPLUS,inclusion,032640.KS,032640.KS,mapped_manual_alias,1.0,manual_alias,,,,032640.KS,downloaded,312.0,,mapped_and_priced
+India,BHARAT HEAVY ELECTRICALS,deletion,BHEL.BO,BHEL.BO,mapped_yahoo_search,1.0862,BHARAT HEAVY ELECTRICALS,BHARAT HEAVY ELECTRICALS LTD.,BSE,,BHEL.BO,downloaded,1359.0,,mapped_and_priced
+India,SIEMENS INDIA,deletion,,,no_country_candidate,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+India,DIVI'S LABORATORIES,inclusion,DIVISLAB.NS,DIVISLAB.NS,mapped_manual_alias,1.0,manual_alias,,,,DIVISLAB.NS,downloaded,437.0,,mapped_and_priced
+Indonesia,MATAHARI DEPARTMENT,deletion,LPPF.JK,LPPF.JK,mapped_manual_alias,1.0,manual_alias,,,,LPPF.JK,downloaded,69.0,,mapped_and_priced
+Indonesia,WASKITA KARYA PERSERO,deletion,WSKT.JK,WSKT.JK,mapped_manual_alias,1.0,manual_alias,,,,WSKT.JK,cached,69.0,,mapped_and_priced
+Indonesia,BUKIT ASAM,inclusion,PTBA.JK,PTBA.JK,mapped_manual_alias,1.0,manual_alias,,,,PTBA.JK,cached,446.0,,mapped_and_priced
+Indonesia,PABRIK K TJIWI KIMIA,inclusion,TKIM.JK,TKIM.JK,mapped_manual_alias,1.0,manual_alias,,,,TKIM.JK,cached,446.0,,mapped_and_priced
+Korea,DONGSUH COMPANIES,deletion,026960.KS,026960.KS,mapped_yahoo_search,0.8587,DONGSUH,DONGSUH,KSC,,026960.KS,downloaded,64.0,,mapped_and_priced
+Korea,DOOSAN HEAVY INDUSTRIES,deletion,131970.KQ,131970.KQ,mapped_yahoo_search,0.7125,DOOSAN,DOOSAN TESNA,KOE,,131970.KQ,downloaded,557.0,,mapped_and_priced
+Korea,HANSSEM CO,deletion,009240.KS,009240.KS,mapped_yahoo_search,1.125,HANSSEM CO,Hanssem,KSC,,009240.KS,downloaded,64.0,,mapped_and_priced
+Korea,KEPCO PLANT SVCS & ENGR,deletion,051600.KS,051600.KS,mapped_yahoo_search,0.7328,KEPCO PLANT,KEPCO KPS,KSC,,051600.KS,downloaded,64.0,,mapped_and_priced
+Korea,DAEWOO SHIPBUILDING,inclusion,003090.KS,003090.KS,mapped_yahoo_search,0.8654,DAEWOO,Daewoong,KSC,,003090.KS,downloaded,803.0,,mapped_and_priced
+Korea,FILA KOREA,inclusion,,,no_country_candidate,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Korea,POSCO CHEMTECH CO,inclusion,058430.KS,058430.KS,mapped_yahoo_search,0.8214,POSCO,POSCO STEELEON,KSC,,058430.KS,downloaded,64.0,,mapped_and_priced
+USA,AGCO CORP,deletion,AGCO,AGCO,existing_repo_mapping,1.0,existing_repo_mapping,,,,AGCO,downloaded,67.0,,mapped_and_priced
+USA,AVNET,deletion,AVT,AVT,existing_repo_mapping,1.0,existing_repo_mapping,,,,AVT,downloaded,67.0,,mapped_and_priced
+USA,AXIS CAPITAL HOLDINGS,deletion,AXS,AXS,existing_repo_mapping,1.0,existing_repo_mapping,,,,AXS,downloaded,67.0,,mapped_and_priced
+USA,NEW YORK COMMU BANCORP,deletion,,,unsupported_country,,,,,No country suffix rules configured.,,,,,unsupported_country
+USA,NEWFIELD EXPLORATION CO,deletion,NFX,NFX,existing_repo_mapping,1.0,existing_repo_mapping,,,,NFX,downloaded,67.0,,mapped_and_priced
+USA,STERICYCLE,deletion,SRCL,SRCL,existing_repo_mapping,1.0,existing_repo_mapping,,,,SRCL,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,TOLL BROTHERS,deletion,TOL,TOL,existing_repo_mapping,1.0,existing_repo_mapping,,,,TOL,downloaded,67.0,,mapped_and_priced
+USA,AXA EQUITABLE HOLDINGS,inclusion,EQH,EQH,existing_repo_mapping,1.0,existing_repo_mapping,,,,EQH,downloaded,67.0,,mapped_and_priced
+USA,BURLINGTON STORES,inclusion,BURL,BURL,existing_repo_mapping,1.0,existing_repo_mapping,,,,BURL,downloaded,67.0,,mapped_and_priced
+USA,DEXCOM,inclusion,DXCM,DXCM,existing_repo_mapping,1.0,existing_repo_mapping,,,,DXCM,downloaded,319.0,,mapped_and_priced
+USA,GRUBHUB,inclusion,GRUB,GRUB,existing_repo_mapping,1.0,existing_repo_mapping,,,,GRUB,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,KKR & CO,inclusion,KKR,KKR,existing_repo_mapping,1.0,existing_repo_mapping,,,,KKR,downloaded,127.0,,mapped_and_priced
+USA,LAMB WESTON HOLDINGS,inclusion,LW,LW,existing_repo_mapping,1.0,existing_repo_mapping,,,,LW,downloaded,1636.0,,mapped_and_priced
+USA,NRG ENERGY,inclusion,NRG,NRG,existing_repo_mapping,1.0,existing_repo_mapping,,,,NRG,downloaded,67.0,,mapped_and_priced
+USA,WAYFAIR A,inclusion,W,W,existing_repo_mapping,1.0,existing_repo_mapping,,,,W,downloaded,1074.0,,mapped_and_priced
+USA,WELLCARE HEALTH PLANS,inclusion,WCG,WCG,existing_repo_mapping,1.0,existing_repo_mapping,,,,WCG,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,ANTERO RESOURCES,deletion,AR,AR,existing_repo_mapping,1.0,existing_repo_mapping,,,,AR,downloaded,65.0,,mapped_and_priced
+USA,ALTICE USA A,inclusion,OPTU,OPTU,existing_repo_mapping,1.0,existing_repo_mapping,,,,OPTU,downloaded,760.0,,mapped_and_priced
+USA,TABLEAU SOFTWARE A,inclusion,DATA,DATA,existing_repo_mapping,1.0,existing_repo_mapping,,,,DATA,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+India,CADILA HEALTHCARE,deletion,,,no_search_result,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+India,ICICI LOMBARD GENL INS,inclusion,ICICIGI.NS,ICICIGI.NS,mapped_yahoo_search,0.9817,ICICI LOMBARD,ICICI LOMBARD GIC LIMITED,NSI,,ICICIGI.NS,downloaded,60.0,,mapped_and_priced
+Indonesia,TOWER BERSAMA INFRA,deletion,TBIG.JK,TBIG.JK,mapped_manual_alias,1.0,manual_alias,,,,TBIG.JK,cached,932.0,,mapped_and_priced
+Indonesia,BARITO PACIFIC,inclusion,BRPT.JK,BRPT.JK,mapped_manual_alias,1.0,manual_alias,,,,BRPT.JK,downloaded,67.0,,mapped_and_priced
+Korea,DGB FINANCIAL HOLDINGS,deletion,,,no_country_candidate,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Korea,KT CORP,deletion,058850.KS,058850.KS,mapped_yahoo_search,0.7,KT CORP,KTcs,KSC,,058850.KS,downloaded,1418.0,,mapped_and_priced
+Korea,MERITZ SECURITIES CO,inclusion,610047.KS,610047.KS,mapped_yahoo_search,0.7628,MERITZ,MERITZ INVERSE KTB 3Y ETN,KSC,,610047.KS,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,BROOKFIELD PPTY REIT A,deletion,BPYU,BPYU,existing_repo_mapping,1.0,existing_repo_mapping,,,,BPYU,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,GOODYEAR TIRE & RUBBER,deletion,GT,GT,existing_repo_mapping,1.0,existing_repo_mapping,,,,GT,downloaded,65.0,,mapped_and_priced
+USA,MATTEL,deletion,MAT,MAT,existing_repo_mapping,1.0,existing_repo_mapping,,,,MAT,downloaded,65.0,,mapped_and_priced
+USA,UNITED THERAPEUTICS CORP,deletion,UTHR,UTHR,existing_repo_mapping,1.0,existing_repo_mapping,,,,UTHR,downloaded,65.0,,mapped_and_priced
+USA,DOCUSIGN,inclusion,DOCU,DOCU,existing_repo_mapping,1.0,existing_repo_mapping,,,,DOCU,downloaded,65.0,,mapped_and_priced
+USA,DROPBOX A,inclusion,DBX,DBX,existing_repo_mapping,1.0,existing_repo_mapping,,,,DBX,downloaded,1326.0,,mapped_and_priced
+USA,EPAM SYSTEMS,inclusion,EPAM,EPAM,existing_repo_mapping,1.0,existing_repo_mapping,,,,EPAM,downloaded,1576.0,,mapped_and_priced
+USA,EQUITY LIFESTYLE PPTYS,inclusion,ELS,ELS,existing_repo_mapping,1.0,existing_repo_mapping,,,,ELS,downloaded,65.0,,mapped_and_priced
+USA,ERIE INDEMNITY CO A,inclusion,ERIE,ERIE,existing_repo_mapping,1.0,existing_repo_mapping,,,,ERIE,downloaded,65.0,,mapped_and_priced
+USA,EXACT SCIENCES CORP,inclusion,EXAS,EXAS,existing_repo_mapping,1.0,existing_repo_mapping,,,,EXAS,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,FACTSET RESEARCH SYSTEMS,inclusion,FDS,FDS,existing_repo_mapping,1.0,existing_repo_mapping,,,,FDS,downloaded,65.0,,mapped_and_priced
+USA,HEICO CORP,inclusion,,,unsupported_country,,,,,No country suffix rules configured.,,,,,unsupported_country
+USA,HEICO CORP A,inclusion,HEI.A,HEI.A,existing_repo_mapping,1.0,existing_repo_mapping,,,,HEI.A,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,IONIS PHARMACEUTICALS,inclusion,IONS,IONS,existing_repo_mapping,1.0,existing_repo_mapping,,,,IONS,downloaded,569.0,,mapped_and_priced
+USA,MARKETAXESS HLDGS,inclusion,MKTX,MKTX,existing_repo_mapping,1.0,existing_repo_mapping,,,,MKTX,downloaded,1513.0,,mapped_and_priced
+USA,MONGODB A,inclusion,MDB,MDB,existing_repo_mapping,1.0,existing_repo_mapping,,,,MDB,downloaded,65.0,,mapped_and_priced
+USA,OKTA,inclusion,OKTA,OKTA,existing_repo_mapping,1.0,existing_repo_mapping,,,,OKTA,downloaded,65.0,,mapped_and_priced
+USA,PAYCOM SOFTWARE,inclusion,PAYC,PAYC,existing_repo_mapping,1.0,existing_repo_mapping,,,,PAYC,downloaded,65.0,,mapped_and_priced
+USA,PERKINELMER,inclusion,PKI,PKI,existing_repo_mapping,1.0,existing_repo_mapping,,,,PKI,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,SNAP A,inclusion,SNAP,SNAP,existing_repo_mapping,1.0,existing_repo_mapping,,,,SNAP,downloaded,65.0,,mapped_and_priced
+USA,STERIS,inclusion,STE,STE,existing_repo_mapping,1.0,existing_repo_mapping,,,,STE,downloaded,65.0,,mapped_and_priced
+USA,SUN COMMUNITIES,inclusion,SUI,SUI,existing_repo_mapping,1.0,existing_repo_mapping,,,,SUI,downloaded,65.0,,mapped_and_priced
+USA,TWILIO A,inclusion,TWLO,TWLO,existing_repo_mapping,1.0,existing_repo_mapping,,,,TWLO,downloaded,65.0,,mapped_and_priced
+USA,ULTIMATE SOFTWARE GROUP,inclusion,ULTI,ULTI,existing_repo_mapping,1.0,existing_repo_mapping,,,,ULTI,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,ZEBRA TECHNOLOGIES A,inclusion,ZBRA,ZBRA,existing_repo_mapping,1.0,existing_repo_mapping,,,,ZBRA,downloaded,65.0,,mapped_and_priced
+India,HDFC LIFE INSURANCE CO,inclusion,HDFCLIFE.BO,HDFCLIFE.BO,mapped_yahoo_search,0.9944,HDFC LIFE INSURANCE CO,HDFC LIFE INSURANCE COMPANY LI,BSE,,HDFCLIFE.BO,downloaded,66.0,,mapped_and_priced
+USA,CHEMOURS CO,deletion,CC,CC,existing_repo_mapping,1.0,existing_repo_mapping,,,,CC,downloaded,503.0,,mapped_and_priced
+USA,COMMSCOPE HOLDING CO,deletion,COMM,,unsupported_country,,,,,No country suffix rules configured.,COMM,,,,unsupported_country
+USA,ROKU A,inclusion,ROKU,ROKU,existing_repo_mapping,1.0,existing_repo_mapping,,,,ROKU,downloaded,1516.0,,mapped_and_priced
+USA,SAREPTA THERAPEUTICS,inclusion,SRPT,SRPT,existing_repo_mapping,1.0,existing_repo_mapping,,,,SRPT,downloaded,509.0,,mapped_and_priced
+India,GLENMARK PHARMACEUTICALS,deletion,GLENMARK.NS,GLENMARK.NS,mapped_yahoo_search,1.25,GLENMARK PHARMACEUTICALS,GLENMARK PHARMACEUTICALS,NSI,,GLENMARK.NS,downloaded,65.0,,mapped_and_priced
+India,INDIABULLS HOUSING FIN,deletion,IBULLSLTD.NS,IBULLSLTD.NS,mapped_yahoo_search,0.8986,INDIABULLS,INDIABULLS LIMITED,NSI,,IBULLSLTD.NS,downloaded,65.0,,mapped_and_priced
+India,VODAFONE IDEA,deletion,IDEA.NS,IDEA.NS,mapped_yahoo_search,1.0242,VODAFONE IDEA,VODAFONE IDEA LIMITED,NSI,,IDEA.NS,downloaded,1244.0,,mapped_and_priced
+India,YES BANK,deletion,YESBANK.BO,YESBANK.BO,mapped_yahoo_search,0.9735,YES BANK,YES BANK LTD.,BSE,,YESBANK.BO,cached,319.0,,mapped_and_priced
+India,BERGER PAINTS INDIA,inclusion,BERGEPAINT.NS,BERGEPAINT.NS,mapped_yahoo_search,1.0985,BERGER PAINTS INDIA,BERGER PAINTS (I) LTD,NSI,,BERGEPAINT.NS,downloaded,1181.0,,mapped_and_priced
+India,COLGATE-PALMOLIVE INDIA,inclusion,COLPAL.NS,COLPAL.NS,mapped_yahoo_search,1.1,COLGATE-PALMOLIVE INDIA,COLGATE PALMOLIVE LTD.,NSI,,COLPAL.NS,downloaded,65.0,,mapped_and_priced
+India,DLF,inclusion,DLF.BO,DLF.BO,mapped_yahoo_search,0.8167,DLF,DLF LTD.,BSE,,DLF.BO,downloaded,65.0,,mapped_and_priced
+India,HDFC ASSET MANAGEMENT,inclusion,HDFCAMC.BO,HDFCAMC.BO,mapped_yahoo_search,0.9944,HDFC ASSET MANAGEMENT,HDFC Asset Management Company,BSE,,HDFCAMC.BO,downloaded,1000.0,,mapped_and_priced
+India,ICICI PRUDENTIAL LIFE,inclusion,ICICIPRULI.BO,ICICIPRULI.BO,mapped_yahoo_search,0.9761,ICICI PRUDENTIAL LIFE,ICICI Prudential Life Insuranc,BSE,,ICICIPRULI.BO,downloaded,65.0,,mapped_and_priced
+India,INFO EDGE (INDIA),inclusion,NAUKRI.NS,NAUKRI.NS,mapped_yahoo_search,1.05,INFO EDGE (INDIA),INFO EDGE (I) LTD,NSI,,NAUKRI.NS,downloaded,65.0,,mapped_and_priced
+India,SBI LIFE INSURANCE CO,inclusion,SBILIFE.NS,SBILIFE.NS,mapped_yahoo_search,1.1731,SBI LIFE INSURANCE CO,SBI LIFE INSURANCE CO LTD,NSI,,SBILIFE.NS,cached,65.0,,mapped_and_priced
+India,SIEMENS INDIA,inclusion,,,no_country_candidate,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Indonesia,SURYA CITRA MEDIA,deletion,SCMA.JK,SCMA.JK,mapped_manual_alias,1.0,manual_alias,,,,SCMA.JK,cached,70.0,,mapped_and_priced
+Indonesia,ACE HARDWARE INDONESIA,inclusion,ACES.JK,ACES.JK,mapped_manual_alias,1.0,manual_alias,,,,ACES.JK,downloaded,372.0,,mapped_and_priced
+Indonesia,XL AXIATA TBK,inclusion,EXCL.JK,EXCL.JK,mapped_manual_alias,1.0,manual_alias,,,,EXCL.JK,downloaded,702.0,,mapped_and_priced
+Korea,CELLTRION PHARM,deletion,068760.KQ,068760.KQ,mapped_yahoo_search,1.03,CELLTRION PHARM,Celltrionph,KOE,,068760.KQ,downloaded,1660.0,,mapped_and_priced
+Korea,HANMI SCIENCE CO,deletion,008930.KS,008930.KS,mapped_yahoo_search,1.1731,HANMI SCIENCE CO,Hanmi Science,KSC,,008930.KS,downloaded,66.0,,mapped_and_priced
+Korea,SILLAJEN,deletion,215600.KQ,215600.KQ,mapped_manual_alias,1.0,manual_alias,,,,215600.KQ,downloaded,547.0,,mapped_and_priced
+Korea,KMW CO,inclusion,032500.KQ,032500.KQ,mapped_yahoo_search,0.75,KMW,KMW,KOE,,032500.KQ,downloaded,503.0,,mapped_and_priced
+USA,AFFILIATED MANAGERS GRP,deletion,AFS,AFS,existing_repo_mapping,1.0,existing_repo_mapping,,,,AFS,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,ALKERMES,deletion,ALKS,ALKS,existing_repo_mapping,1.0,existing_repo_mapping,,,,ALKS,downloaded,69.0,,mapped_and_priced
+USA,BLOCK (H&R),deletion,HRB,HRB,existing_repo_mapping,1.0,existing_repo_mapping,,,,HRB,downloaded,69.0,,mapped_and_priced
+USA,BRIGHTHOUSE FINANCIAL,deletion,BHFAN,BHFAN,existing_repo_mapping,1.0,existing_repo_mapping,,,,BHFAN,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,CIMAREX ENERGY CO,deletion,XEC,XEC,existing_repo_mapping,1.0,existing_repo_mapping,,,,XEC,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,CIT GROUP,deletion,CIT,CIT,existing_repo_mapping,1.0,existing_repo_mapping,,,,CIT,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,FLUOR CORP,deletion,FLR,FLR,existing_repo_mapping,1.0,existing_repo_mapping,,,,FLR,downloaded,69.0,,mapped_and_priced
+USA,HELMERICH & PAYNE,deletion,,,unsupported_country,,,,,No country suffix rules configured.,,,,,unsupported_country
+USA,L BRANDS,deletion,BBWI,BBWI,existing_repo_mapping,1.0,existing_repo_mapping,,,,BBWI,downloaded,1327.0,,mapped_and_priced
+USA,MACERICH CO,deletion,MAC,MAC,existing_repo_mapping,1.0,existing_repo_mapping,,,,MAC,downloaded,69.0,,mapped_and_priced
+USA,MACY'S,deletion,M,M,existing_repo_mapping,1.0,existing_repo_mapping,,,,M,downloaded,69.0,,mapped_and_priced
+USA,NEKTAR THERAPEUTICS,deletion,NKTR,NKTR,existing_repo_mapping,1.0,existing_repo_mapping,,,,NKTR,downloaded,442.0,,mapped_and_priced
+USA,PARSLEY ENERGY A,deletion,PE,PE,existing_repo_mapping,1.0,existing_repo_mapping,,,,PE,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,BIO-RAD LABORATORIES A,inclusion,BIO,BIO,existing_repo_mapping,1.0,existing_repo_mapping,,,,BIO,downloaded,1453.0,,mapped_and_priced
+USA,BLACK KNIGHT,inclusion,BKI,BKI,existing_repo_mapping,1.0,existing_repo_mapping,,,,BKI,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,BLACKSTONE GROUP,inclusion,BX,BX,existing_repo_mapping,1.0,existing_repo_mapping,,,,BX,downloaded,69.0,,mapped_and_priced
+USA,BOOZ ALLEN HAMILTON A,inclusion,BAH,BAH,existing_repo_mapping,1.0,existing_repo_mapping,,,,BAH,downloaded,69.0,,mapped_and_priced
+USA,BROWN & BROWN,inclusion,BRO,BRO,existing_repo_mapping,1.0,existing_repo_mapping,,,,BRO,downloaded,69.0,,mapped_and_priced
+USA,GUIDEWIRE SOFTWARE,inclusion,GWRE,GWRE,existing_repo_mapping,1.0,existing_repo_mapping,,,,GWRE,downloaded,828.0,,mapped_and_priced
+USA,INSULET CORP,inclusion,PODD,PODD,existing_repo_mapping,1.0,existing_repo_mapping,,,,PODD,downloaded,69.0,,mapped_and_priced
+USA,MATCH GROUP,inclusion,MTCH,MTCH,existing_repo_mapping,1.0,existing_repo_mapping,,,,MTCH,downloaded,1390.0,,mapped_and_priced
+USA,MEDICAL PROPERTIES TRUST,inclusion,MPT,MPT,existing_repo_mapping,1.0,existing_repo_mapping,,,,MPT,downloaded,951.0,,mapped_and_priced
+USA,NEUROCRINE BIOSCIENCES,inclusion,NBIX,NBIX,existing_repo_mapping,1.0,existing_repo_mapping,,,,NBIX,downloaded,69.0,,mapped_and_priced
+USA,OMEGA HEALTHCARE INVESTO,inclusion,,,unsupported_country,,,,,No country suffix rules configured.,,,,,unsupported_country
+USA,PINTEREST A,inclusion,PINS,PINS,existing_repo_mapping,1.0,existing_repo_mapping,,,,PINS,downloaded,69.0,,mapped_and_priced
+India,ASHOK LEYLAND,deletion,ASHOKLEY.NS,ASHOKLEY.NS,mapped_yahoo_search,1.1389,ASHOK LEYLAND,ASHOK LEYLAND LTD,NSI,,ASHOKLEY.NS,downloaded,874.0,,mapped_and_priced
+India,M & M FINANCIAL SVCS,deletion,NAHARCAP.NS,NAHARCAP.NS,mapped_yahoo_search,0.475,AND FINANCIAL,NAHAR CAP & FIN.,NSI,,NAHARCAP.NS,downloaded,63.0,,mapped_and_priced
+India,SHRIRAM TRANSPORT FIN,deletion,SHRIPISTON.NS,SHRIPISTON.NS,mapped_yahoo_search,0.9,SHRIRAM,SHRIRAM PIST. & RING LTD,NSI,,SHRIPISTON.NS,cached,63.0,,mapped_and_priced
+India,TATA POWER CO,deletion,TATAPOWER.NS,TATAPOWER.NS,mapped_yahoo_search,1.13,TATA POWER CO,TATA POWER CO LTD,NSI,,TATAPOWER.NS,cached,439.0,,mapped_and_priced
+India,BIOCON LTD,inclusion,BIOCON.BO,BIOCON.BO,mapped_yahoo_search,1.15,BIOCON LTD,BIOCON LTD.,BSE,,BIOCON.BO,downloaded,750.0,,mapped_and_priced
+India,INDRAPRASTHA GAS,inclusion,IGL.NS,IGL.NS,mapped_yahoo_search,1.1591,INDRAPRASTHA GAS,INDRAPRASTHA GAS LTD,NSI,,IGL.NS,downloaded,1055.0,,mapped_and_priced
+India,JUBILANT FOODWORKS,inclusion,JUBLFOOD.NS,JUBLFOOD.NS,mapped_yahoo_search,1.1689,JUBILANT FOODWORKS,JUBILANT FOODWORKS LTD,NSI,,JUBLFOOD.NS,downloaded,63.0,,mapped_and_priced
+India,TATA CONSUMER PRODUCTS,inclusion,TATACONSUM.NS,TATACONSUM.NS,mapped_yahoo_search,1.1548,TATA CONSUMER PRODUCTS,TATA CONSUMER PRODUCT LTD,NSI,,TATACONSUM.NS,cached,63.0,,mapped_and_priced
+India,TORRENT PHARMACEUTICALS,inclusion,TORNTPHARM.NS,TORNTPHARM.NS,mapped_yahoo_search,1.2278,TORRENT PHARMACEUTICALS,TORRENT PHARMACEUTICALS L,NSI,,TORNTPHARM.NS,cached,63.0,,mapped_and_priced
+Indonesia,BANK TABUNGAN NEGARA,deletion,BBTN.JK,BBTN.JK,mapped_manual_alias,1.0,manual_alias,,,,BBTN.JK,downloaded,708.0,,mapped_and_priced
+Indonesia,BUKIT ASAM,deletion,PTBA.JK,PTBA.JK,mapped_manual_alias,1.0,manual_alias,,,,PTBA.JK,cached,446.0,,mapped_and_priced
+Indonesia,BUMI SERPONG DAMAI,deletion,BSDE.JK,BSDE.JK,mapped_yahoo_search,1.1643,BUMI SERPONG DAMAI,Bumi Serpong Damai Tbk,JKT,,BSDE.JK,downloaded,61.0,,mapped_and_priced
+Indonesia,JASA MARGA (PERSERO),deletion,JSMR.JK,JSMR.JK,mapped_yahoo_search,1.1643,JASA MARGA (PERSERO),Jasa Marga (Persero) Tbk,JKT,,JSMR.JK,downloaded,61.0,,mapped_and_priced
+Indonesia,PABRIK K TJIWI KIMIA,deletion,TKIM.JK,TKIM.JK,mapped_manual_alias,1.0,manual_alias,,,,TKIM.JK,cached,446.0,,mapped_and_priced
+Indonesia,PAKUWON JATI,deletion,PWON.JK,PWON.JK,mapped_yahoo_search,1.13,PAKUWON JATI,Pakuwon Jati Tbk.,JKT,,PWON.JK,cached,61.0,,mapped_and_priced
+Korea,HANWHA LIFE INSURANCE,deletion,088350.KS,088350.KS,mapped_yahoo_search,0.9397,HANWHA LIFE INSURANCE,HANWHA LIFE,KSC,,088350.KS,downloaded,65.0,,mapped_and_priced
+Korea,HDC HYUNDAI DEV (NEW),deletion,089470.KS,089470.KS,mapped_yahoo_search,0.5545,HDC HYUNDAI,HDCHEP,KSC,,089470.KS,downloaded,65.0,,mapped_and_priced
+Korea,KCC CORP,deletion,002380.KS,002380.KS,mapped_yahoo_search,0.7,KCC CORP,KCC,KSC,,002380.KS,downloaded,65.0,,mapped_and_priced
+Korea,MEDY-TOX,deletion,086900.KQ,086900.KQ,mapped_manual_alias,1.0,manual_alias,,,,086900.KQ,downloaded,795.0,,mapped_and_priced
+Korea,OCI COMPANY,deletion,010060.KS,010060.KS,mapped_yahoo_search,0.5762,OCI,OCI Holdings,KSC,,010060.KS,downloaded,65.0,,mapped_and_priced
+Korea,DUZONBIZON CO,inclusion,,,no_search_result,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+USA,ACUITY BRANDS,deletion,AYI,AYI,existing_repo_mapping,1.0,existing_repo_mapping,,,,AYI,downloaded,67.0,,mapped_and_priced
+USA,ALLIANCE DATA SYSTEMS,deletion,ADS,ADS,existing_repo_mapping,1.0,existing_repo_mapping,,,,ADS,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,AMERICAN AIRLINES GROUP,deletion,AAL,AAL,existing_repo_mapping,1.0,existing_repo_mapping,,,,AAL,downloaded,67.0,,mapped_and_priced
+USA,APACHE CORP,deletion,APA,APA,existing_repo_mapping,1.0,existing_repo_mapping,,,,APA,downloaded,1261.0,,mapped_and_priced
+USA,APOLLO GLOBAL MGMT A,inclusion,APO,APO,existing_repo_mapping,1.0,existing_repo_mapping,,,,APO,downloaded,67.0,,mapped_and_priced
+USA,AVALARA,inclusion,AVLR,AVLR,existing_repo_mapping,1.0,existing_repo_mapping,,,,AVLR,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,AVANTOR,inclusion,AVTR,AVTR,existing_repo_mapping,1.0,existing_repo_mapping,,,,AVTR,downloaded,1383.0,,mapped_and_priced
+USA,CABLE ONE,inclusion,CABO,CABO,existing_repo_mapping,1.0,existing_repo_mapping,,,,CABO,downloaded,699.0,,mapped_and_priced
+Korea,DAEWOO ENGR & CONSTR,deletion,003090.KS,003090.KS,mapped_yahoo_search,0.8426,DAEWOO,Daewoong,KSC,,003090.KS,downloaded,803.0,,mapped_and_priced
+Korea,HELIXMITH CO,deletion,084990.KQ,084990.KQ,mapped_yahoo_search,1.05,HELIXMITH CO,Helixmith,KOE,,084990.KQ,downloaded,69.0,,mapped_and_priced
+Korea,HYUNDAI DEPT STORE,deletion,017800.KS,017800.KS,mapped_yahoo_search,0.9597,HYUNDAI,Hyundai Elevator,KSC,,017800.KS,downloaded,69.0,,mapped_and_priced
+Korea,ALTEOGEN,inclusion,196170.KQ,196170.KQ,mapped_yahoo_search,1.15,ALTEOGEN,Alteogen,KOE,,196170.KQ,downloaded,988.0,,mapped_and_priced
+Korea,SEEGENE,inclusion,096530.KQ,096530.KQ,mapped_yahoo_search,1.15,SEEGENE,SEEGENE,KOE,,096530.KQ,downloaded,621.0,,mapped_and_priced
+Korea,SHIN POONG PHARMA CO,inclusion,,,no_country_candidate,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+USA,HOLLYFRONTIER,deletion,HFC,HFC,existing_repo_mapping,1.0,existing_repo_mapping,,,,HFC,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,P G & E CORP,inclusion,PCG,PCG,existing_repo_mapping,1.0,existing_repo_mapping,,,,PCG,downloaded,68.0,,mapped_and_priced
+USA,PELOTON INTERACTIVE A,inclusion,PTON,PTON,existing_repo_mapping,1.0,existing_repo_mapping,,,,PTON,downloaded,571.0,,mapped_and_priced
+USA,ZSCALER,inclusion,ZS,ZS,existing_repo_mapping,1.0,existing_repo_mapping,,,,ZS,downloaded,68.0,,mapped_and_priced
+India,BOSCH,deletion,BOSCHLTD.BO,BOSCHLTD.BO,mapped_yahoo_search,0.9192,BOSCH,BOSCH LTD.,BSE,,BOSCHLTD.BO,downloaded,913.0,,mapped_and_priced
+India,LIC HOUSING FINANCE,deletion,LICHSGFIN.NS,LICHSGFIN.NS,mapped_yahoo_search,1.1689,LIC HOUSING FINANCE,LIC HOUSING FINANCE LTD,NSI,,LICHSGFIN.NS,downloaded,69.0,,mapped_and_priced
+India,ACC,inclusion,ACC.NS,ACC.NS,mapped_manual_alias,1.0,manual_alias,,,,ACC.NS,downloaded,1363.0,,mapped_and_priced
+India,ADANI GREEN ENERGY,inclusion,ADANIGREEN.NS,ADANIGREEN.NS,mapped_yahoo_search,1.1643,ADANI GREEN ENERGY,ADANI GREEN ENERGY LTD,NSI,,ADANIGREEN.NS,downloaded,1119.0,,mapped_and_priced
+India,APOLLO HOSPITALS,inclusion,APOLLOHOSP.NS,APOLLOHOSP.NS,mapped_manual_alias,1.0,manual_alias,,,,APOLLOHOSP.NS,downloaded,806.0,,mapped_and_priced
+India,BALKRISHNA INDUSTRIES,inclusion,BALKRISIND.BO,BALKRISIND.BO,mapped_yahoo_search,1.0802,BALKRISHNA INDUSTRIES,BALKRISHNA INDUSTRIES LTD.,BSE,,BALKRISIND.BO,downloaded,69.0,,mapped_and_priced
+India,IPCA LABORATORIES,inclusion,IPCALAB.NS,IPCALAB.NS,mapped_yahoo_search,1.1643,IPCA LABORATORIES,IPCA LABORATORIES LTD,NSI,,IPCALAB.NS,downloaded,315.0,,mapped_and_priced
+India,KOTAK MAHINDRA BANK,inclusion,KOTAKBANK.NS,KOTAKBANK.NS,mapped_yahoo_search,1.1689,KOTAK MAHINDRA BANK,KOTAK MAHINDRA BANK LTD,NSI,,KOTAKBANK.NS,downloaded,69.0,,mapped_and_priced
+India,LARSEN AND TOUBRO INFO,inclusion,LT.NS,LT.NS,mapped_yahoo_search,1.0608,LARSEN,LARSEN & TOUBRO LTD.,NSI,,LT.NS,downloaded,69.0,,mapped_and_priced
+India,MRF,inclusion,MRF.NS,MRF.NS,mapped_yahoo_search,0.9167,MRF,MRF LTD,NSI,,MRF.NS,downloaded,69.0,,mapped_and_priced
+India,MUTHOOT FINANCE,inclusion,MUTHOOTFIN.BO,MUTHOOTFIN.BO,mapped_yahoo_search,1.0532,MUTHOOT FINANCE,MUTHOOT FINANCE LTD.,BSE,,MUTHOOTFIN.BO,downloaded,69.0,,mapped_and_priced
+India,PI INDUSTRIES,inclusion,PIIND.BO,PIIND.BO,mapped_yahoo_search,1.0389,PI INDUSTRIES,P.I.INDUSTRIES LTD.,BSE,,PIIND.BO,cached,69.0,,mapped_and_priced
+India,TRENT,inclusion,TRENT.BO,TRENT.BO,mapped_yahoo_search,0.9192,TRENT,TRENT LTD.,BSE,,TRENT.BO,cached,69.0,,mapped_and_priced
+India,YES BANK,inclusion,YESBANK.BO,YESBANK.BO,mapped_yahoo_search,0.9735,YES BANK,YES BANK LTD.,BSE,,YESBANK.BO,cached,319.0,,mapped_and_priced
+Indonesia,HM SAMPOERNA,deletion,,,no_country_candidate,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Indonesia,MERDEKA COPPER GOLD,inclusion,MDKA.JK,MDKA.JK,mapped_yahoo_search,1.1689,MERDEKA COPPER GOLD,Merdeka Copper Gold Tbk.,JKT,,MDKA.JK,downloaded,1094.0,,mapped_and_priced
+Indonesia,SARANA MENARA NUSANTARA,inclusion,TOWR.JK,TOWR.JK,mapped_yahoo_search,1.1833,SARANA MENARA NUSANTARA,Sarana Menara Nusantara Tbk.,JKT,,TOWR.JK,cached,908.0,,mapped_and_priced
+Korea,AMOREPAC CORP PREF (NEW),deletion,090435.KS,090435.KS,mapped_yahoo_search,0.8561,AMOREPAC CORP,AMOREPACIFIC(1P),KSC,,090435.KS,downloaded,67.0,,mapped_and_priced
+Korea,BNK FINANCIAL GROUP,deletion,138930.KS,138930.KS,mapped_yahoo_search,1.25,BNK FINANCIAL GROUP,BNK Financial Group,KSC,,138930.KS,downloaded,67.0,,mapped_and_priced
+Korea,POSCO INTERNATIONAL,deletion,047050.KS,047050.KS,mapped_yahoo_search,1.25,POSCO INTERNATIONAL,POSCO INTERNATIONAL,KSC,,047050.KS,downloaded,680.0,,mapped_and_priced
+Korea,DOOSAN HEAVY INDUSTRIES,inclusion,131970.KQ,131970.KQ,mapped_yahoo_search,0.7125,DOOSAN,DOOSAN TESNA,KOE,,131970.KQ,downloaded,557.0,,mapped_and_priced
+Korea,SK BIOPHARMACEUTICALS,inclusion,,,no_country_candidate,0.4333333333333333,SK BIOPHARMACEUTICALS,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Korea,SK CHEMICALS (NEW),inclusion,285130.KS,285130.KS,mapped_yahoo_search,0.85,SK CHEMICALS,SKCHEM,KSC,,285130.KS,downloaded,558.0,,mapped_and_priced
+USA,CDK GLOBAL HOLDINGS,deletion,CDK,CDK,existing_repo_mapping,1.0,existing_repo_mapping,,,,CDK,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,COMERICA,deletion,CMAPRB,CMAPRB,existing_repo_mapping,1.0,existing_repo_mapping,,,,CMAPRB,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,DIAMONDBACK ENERGY,deletion,FANG,FANG,existing_repo_mapping,1.0,existing_repo_mapping,,,,FANG,downloaded,321.0,,mapped_and_priced
+USA,EAST WEST BANCORP,deletion,EWBC,EWBC,existing_repo_mapping,1.0,existing_repo_mapping,,,,EWBC,downloaded,949.0,,mapped_and_priced
+USA,FEDERAL REALTY INV TRUST,deletion,FRT,FRT,existing_repo_mapping,1.0,existing_repo_mapping,,,,FRT,downloaded,70.0,,mapped_and_priced
+USA,FLIR SYSTEMS,deletion,FLIR,FLIR,existing_repo_mapping,1.0,existing_repo_mapping,,,,FLIR,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,INGREDION INC,deletion,INGR,INGR,existing_repo_mapping,1.0,existing_repo_mapping,,,,INGR,downloaded,70.0,,mapped_and_priced
+USA,JONES LANG LASALLE,deletion,JLL,JLL,existing_repo_mapping,1.0,existing_repo_mapping,,,,JLL,downloaded,70.0,,mapped_and_priced
+USA,NATIONAL OILWELL VARCO,deletion,NOV,NOV,existing_repo_mapping,1.0,existing_repo_mapping,,,,NOV,downloaded,70.0,,mapped_and_priced
+USA,NATIONAL RETAIL PPTYS,deletion,NNN,NNN,existing_repo_mapping,1.0,existing_repo_mapping,,,,NNN,downloaded,70.0,,mapped_and_priced
+USA,NIELSEN HOLDINGS PLC,deletion,NLSN,NLSN,existing_repo_mapping,1.0,existing_repo_mapping,,,,NLSN,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,PEOPLES UNITED FINANCIAL,deletion,PEBO,PEBO,existing_repo_mapping,1.0,existing_repo_mapping,,,,PEBO,downloaded,70.0,,mapped_and_priced
+USA,RALPH LAUREN CORP A,deletion,RL,RL,existing_repo_mapping,1.0,existing_repo_mapping,,,,RL,downloaded,70.0,,mapped_and_priced
+USA,SIGNATURE BANK,deletion,SBNY,SBNY,existing_repo_mapping,1.0,existing_repo_mapping,,,,SBNY,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,ZIONS BANCORP,deletion,ZIONP,ZIONP,existing_repo_mapping,1.0,existing_repo_mapping,,,,ZIONP,downloaded,949.0,,mapped_and_priced
+USA,10X GENOMICS A,inclusion,TXG,TXG,existing_repo_mapping,1.0,existing_repo_mapping,,,,TXG,downloaded,446.0,,mapped_and_priced
+USA,CARVANA A,inclusion,CVNA,CVNA,existing_repo_mapping,1.0,existing_repo_mapping,,,,CVNA,downloaded,1072.0,,mapped_and_priced
+USA,CERIDIAN HCM HOLDING,inclusion,DAY,DAY,existing_repo_mapping,1.0,existing_repo_mapping,,,,DAY,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,CHEWY A,inclusion,CHWY,CHWY,existing_repo_mapping,1.0,existing_repo_mapping,,,,CHWY,downloaded,824.0,,mapped_and_priced
+USA,CLOUDFLARE A,inclusion,NET,NET,existing_repo_mapping,1.0,existing_repo_mapping,,,,NET,downloaded,70.0,,mapped_and_priced
+USA,DRAFTKINGS A,inclusion,DKNG,DKNG,existing_repo_mapping,1.0,existing_repo_mapping,,,,DKNG,downloaded,760.0,,mapped_and_priced
+USA,ENPHASE ENERGY,inclusion,ENPH,ENPH,existing_repo_mapping,1.0,existing_repo_mapping,,,,ENPH,downloaded,1135.0,,mapped_and_priced
+USA,ETSY,inclusion,ETSY,ETSY,existing_repo_mapping,1.0,existing_repo_mapping,,,,ETSY,downloaded,1011.0,,mapped_and_priced
+USA,GENERAC HOLDINGS,inclusion,GNRC,GNRC,existing_repo_mapping,1.0,existing_repo_mapping,,,,GNRC,downloaded,824.0,,mapped_and_priced
+USA,HORIZON THERAPEUTICS PLC,inclusion,HZNP,HZNP,existing_repo_mapping,1.0,existing_repo_mapping,,,,HZNP,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,HUBSPOT,inclusion,HUBS,HUBS,existing_repo_mapping,1.0,existing_repo_mapping,,,,HUBS,downloaded,70.0,,mapped_and_priced
+USA,IMMUNOMEDICS,inclusion,,,unsupported_country,,,,,No country suffix rules configured.,,,,,unsupported_country
+USA,LIVONGO HEALTH,inclusion,LVGO,LVGO,existing_repo_mapping,1.0,existing_repo_mapping,,,,LVGO,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,MONOLITHIC POWER SYSTEMS,inclusion,MPWR,MPWR,existing_repo_mapping,1.0,existing_repo_mapping,,,,MPWR,downloaded,70.0,,mapped_and_priced
+USA,MYOKARDIA,inclusion,MYOK,MYOK,existing_repo_mapping,1.0,existing_repo_mapping,,,,MYOK,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,NOVOCURE,inclusion,NVCR,NVCR,existing_repo_mapping,1.0,existing_repo_mapping,,,,NVCR,downloaded,760.0,,mapped_and_priced
+USA,POOL CORP,inclusion,POOL,POOL,existing_repo_mapping,1.0,existing_repo_mapping,,,,POOL,downloaded,70.0,,mapped_and_priced
+USA,ROYALTY PHARMA A,inclusion,RPRX,RPRX,existing_repo_mapping,1.0,existing_repo_mapping,,,,RPRX,downloaded,70.0,,mapped_and_priced
+USA,SOLAREDGE TECHNOLOGIES,inclusion,SEDG,SEDG,existing_repo_mapping,1.0,existing_repo_mapping,,,,SEDG,downloaded,824.0,,mapped_and_priced
+USA,ZENDESK,inclusion,ZEN,ZEN,existing_repo_mapping,1.0,existing_repo_mapping,,,,ZEN,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,ZILLOW GROUP A,inclusion,ZG,ZG,existing_repo_mapping,1.0,existing_repo_mapping,,,,ZG,downloaded,70.0,,mapped_and_priced
+Indonesia,ACE HARDWARE INDONESIA,deletion,ACES.JK,ACES.JK,mapped_manual_alias,1.0,manual_alias,,,,ACES.JK,downloaded,372.0,,mapped_and_priced
+Indonesia,ANEKA TAMBANG,inclusion,ANTM.JK,ANTM.JK,mapped_yahoo_search,1.1389,ANEKA TAMBANG,Aneka Tambang Tbk.,JKT,,ANTM.JK,downloaded,911.0,,mapped_and_priced
+USA,PERRIGO,deletion,PRGO,PRGO,existing_repo_mapping,1.0,existing_repo_mapping,,,,PRGO,downloaded,65.0,,mapped_and_priced
+USA,AIRBNB A,inclusion,ABNB,ABNB,existing_repo_mapping,1.0,existing_repo_mapping,,,,ABNB,downloaded,65.0,,mapped_and_priced
+USA,PLUG POWER,inclusion,PLUG,PLUG,existing_repo_mapping,1.0,existing_repo_mapping,,,,PLUG,downloaded,632.0,,mapped_and_priced
+India,ZEE ENTERTAINMENT ENT,deletion,ZEEL.NS,ZEEL.NS,mapped_yahoo_search,1.1768,ZEE ENTERTAINMENT ENT,ZEE ENTERTAINMENT ENT LTD,NSI,,ZEEL.NS,cached,63.0,,mapped_and_priced
+India,ADANI ENTERPRISES,inclusion,ADANIENT.NS,ADANIENT.NS,mapped_yahoo_search,1.0705,ADANI ENTERPRISES,ADANI ENTERPRISES LIMITED,NSI,,ADANIENT.NS,downloaded,63.0,,mapped_and_priced
+India,ADANI TOTAL GAS,inclusion,ATGL.NS,ATGL.NS,mapped_yahoo_search,1.0379,ADANI TOTAL GAS,ADANI TOTAL GAS LIMITED,NSI,,ATGL.NS,downloaded,562.0,,mapped_and_priced
+India,ADANI TRANSMISSION,inclusion,ADANIENSOL.NS,ADANIENSOL.NS,mapped_yahoo_search,0.7115,ADANI,ADANI ENERGY SOLUTION LTD,NSI,,ADANIENSOL.NS,downloaded,562.0,,mapped_and_priced
+India,BHARAT ELECTRONICS,inclusion,BEL.NS,BEL.NS,mapped_yahoo_search,1.1689,BHARAT ELECTRONICS,BHARAT ELECTRONICS LTD,NSI,,BEL.NS,downloaded,63.0,,mapped_and_priced
+India,CHOLAMANDALAM INV & FIN,inclusion,CHOLAFIN.NS,CHOLAFIN.NS,mapped_yahoo_search,1.1833,CHOLAMANDALAM INV AND FIN,CHOLAMANDALAM IN & FIN CO,NSI,,CHOLAFIN.NS,downloaded,63.0,,mapped_and_priced
+India,SBI CARDS AND PAYMENT,inclusion,SBICARD.NS,SBICARD.NS,mapped_yahoo_search,1.0921,SBI CARDS AND PAYMENT,SBI CARDS & PAY SER LTD,NSI,,SBICARD.NS,cached,63.0,,mapped_and_priced
+Indonesia,PERUSAHAAN GAS NEGARA,deletion,PGAS.JK,PGAS.JK,mapped_yahoo_search,1.0944,PERUSAHAAN GAS NEGARA,Perusahaan Gas Negara (Persero),JKT,,PGAS.JK,cached,62.0,,mapped_and_priced
+Indonesia,TOWER BERSAMA INFRA,inclusion,TBIG.JK,TBIG.JK,mapped_manual_alias,1.0,manual_alias,,,,TBIG.JK,cached,932.0,,mapped_and_priced
+Korea,GS RETAIL,deletion,007070.KS,007070.KS,mapped_yahoo_search,1.25,GS RETAIL,GS Retail,KSC,,007070.KS,downloaded,66.0,,mapped_and_priced
+Korea,HANWHA CORP,deletion,000880.KS,000880.KS,mapped_yahoo_search,1.0,HANWHA CORP,Hanwha,KSC,,000880.KS,downloaded,66.0,,mapped_and_priced
+Korea,HYUNDAI MARINE & FIRE,deletion,001450.KS,001450.KS,mapped_yahoo_search,0.9929,HYUNDAI MARINE & FIRE,Hyundai M&F INS,KSC,,001450.KS,downloaded,66.0,,mapped_and_priced
+Korea,KOREA GAS CORPORATION,deletion,004590.KQ,004590.KQ,mapped_yahoo_search,0.6328,KOREA,KoreaFurni,KOE,,004590.KQ,downloaded,66.0,,mapped_and_priced
+Korea,LOTTE HOLDINGS,deletion,005300.KS,005300.KS,mapped_yahoo_search,0.9423,LOTTE,LotteChilsung,KSC,,005300.KS,downloaded,66.0,,mapped_and_priced
+Korea,OTTOGI CORPORATION,deletion,,,no_search_result,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Korea,SAMSUNG CARD CO,deletion,029780.KS,029780.KS,mapped_yahoo_search,1.1667,SAMSUNG CARD CO,SAMSUNG CARD,KSC,,029780.KS,downloaded,66.0,,mapped_and_priced
+Korea,GREEN CROSS CORP,inclusion,,,no_country_candidate,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Korea,HMM,inclusion,011200.KS,011200.KS,mapped_yahoo_search,1.25,HMM,HMM,KSC,,011200.KS,downloaded,66.0,,mapped_and_priced
+Korea,HYBE,inclusion,352820.KS,352820.KS,mapped_yahoo_search,1.25,HYBE,HYBE,KSC,,352820.KS,downloaded,66.0,,mapped_and_priced
+Korea,SKC CO,inclusion,011790.KS,011790.KS,mapped_yahoo_search,0.85,SKC CO,SKC,KSC,,011790.KS,downloaded,1106.0,,mapped_and_priced
+USA,AXALTA COATING SYSTEMS,deletion,AXTA,AXTA,existing_repo_mapping,1.0,existing_repo_mapping,,,,AXTA,downloaded,66.0,,mapped_and_priced
+USA,CABOT OIL & GAS CORP,deletion,COG,COG,existing_repo_mapping,1.0,existing_repo_mapping,,,,COG,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,IONIS PHARMACEUTICALS,deletion,IONS,IONS,existing_repo_mapping,1.0,existing_repo_mapping,,,,IONS,downloaded,569.0,,mapped_and_priced
+USA,OGE ENERGY CORP,deletion,OGE,OGE,existing_repo_mapping,1.0,existing_repo_mapping,,,,OGE,downloaded,66.0,,mapped_and_priced
+USA,SAREPTA THERAPEUTICS,deletion,SRPT,SRPT,existing_repo_mapping,1.0,existing_repo_mapping,,,,SRPT,downloaded,509.0,,mapped_and_priced
+USA,BENTLEY SYSTEMS B,inclusion,BSY,BSY,existing_repo_mapping,1.0,existing_repo_mapping,,,,BSY,downloaded,66.0,,mapped_and_priced
+USA,BIO-TECHNE CORP,inclusion,TECH,TECH,existing_repo_mapping,1.0,existing_repo_mapping,,,,TECH,downloaded,1073.0,,mapped_and_priced
+USA,BOSTON BEER A,inclusion,SAM,SAM,existing_repo_mapping,1.0,existing_repo_mapping,,,,SAM,downloaded,196.0,,mapped_and_priced
+USA,CAESARS ENT INC,inclusion,CZR,CZR,existing_repo_mapping,1.0,existing_repo_mapping,,,,CZR,downloaded,886.0,,mapped_and_priced
+USA,CHARLES RIVER LABS INTL,inclusion,CRL,CRL,existing_repo_mapping,1.0,existing_repo_mapping,,,,CRL,downloaded,1010.0,,mapped_and_priced
+USA,CLARIVATE,inclusion,CLVT,CLVT,existing_repo_mapping,1.0,existing_repo_mapping,,,,CLVT,downloaded,699.0,,mapped_and_priced
+USA,L BRANDS,inclusion,BBWI,BBWI,existing_repo_mapping,1.0,existing_repo_mapping,,,,BBWI,downloaded,1327.0,,mapped_and_priced
+USA,LYFT A,inclusion,LYFT,LYFT,existing_repo_mapping,1.0,existing_repo_mapping,,,,LYFT,downloaded,448.0,,mapped_and_priced
+USA,NOVAVAX,inclusion,NVAX,NVAX,existing_repo_mapping,1.0,existing_repo_mapping,,,,NVAX,downloaded,321.0,,mapped_and_priced
+USA,OAK STREET HEALTH,inclusion,OSH,OSH,existing_repo_mapping,1.0,existing_repo_mapping,,,,OSH,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,PALANTIR TECHNOLOGIES A,inclusion,PLTR,PLTR,existing_repo_mapping,1.0,existing_repo_mapping,,,,PLTR,downloaded,66.0,,mapped_and_priced
+USA,UNITY SOFTWARE,inclusion,U,U,existing_repo_mapping,1.0,existing_repo_mapping,,,,U,downloaded,886.0,,mapped_and_priced
+Korea,KMW CO,deletion,032500.KQ,032500.KQ,mapped_yahoo_search,0.75,KMW,KMW,KOE,,032500.KQ,downloaded,503.0,,mapped_and_priced
+Korea,ECOPROBM,inclusion,247540.KQ,247540.KQ,mapped_yahoo_search,1.15,ECOPROBM,ECOPROBM,KOE,,247540.KQ,downloaded,69.0,,mapped_and_priced
+Korea,SK BIOSCIENCE CO,inclusion,302440.KS,302440.KS,mapped_yahoo_search,0.5444,SK BIOSCIENCE CO,SKBS,KSC,,302440.KS,downloaded,921.0,,mapped_and_priced
+Korea,SK IE TECHNOLOGY,inclusion,361610.KS,361610.KS,mapped_yahoo_search,1.25,SK IE TECHNOLOGY,SK ie technology,KSC,,361610.KS,downloaded,802.0,,mapped_and_priced
+USA,AMC ENTERTAINMENT HLDG A,inclusion,AMC,AMC,existing_repo_mapping,1.0,existing_repo_mapping,,,,AMC,downloaded,384.0,,mapped_and_priced
+USA,DOORDASH A,inclusion,DASH,DASH,existing_repo_mapping,1.0,existing_repo_mapping,,,,DASH,downloaded,68.0,,mapped_and_priced
+India,IPCA LABORATORIES,deletion,IPCALAB.NS,IPCALAB.NS,mapped_yahoo_search,1.1643,IPCA LABORATORIES,IPCA LABORATORIES LTD,NSI,,IPCALAB.NS,downloaded,315.0,,mapped_and_priced
+India,REC,deletion,,,no_country_candidate,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+India,GODREJ PROPERTIES,inclusion,GODREJPROP.NS,GODREJPROP.NS,mapped_yahoo_search,1.1643,GODREJ PROPERTIES,GODREJ PROPERTIES LTD,NSI,,GODREJPROP.NS,downloaded,67.0,,mapped_and_priced
+India,INDIAN RAIL CATER & TOUR,inclusion,IRCTC.BO,IRCTC.BO,mapped_yahoo_search,0.9833,INDIAN RAIL CATER & TOUR,Indian Railway Catering and To,BSE,,IRCTC.BO,downloaded,67.0,,mapped_and_priced
+India,MINDTREE,inclusion,,,no_search_result,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+India,MPHASIS,inclusion,MPHASIS.BO,MPHASIS.BO,mapped_yahoo_search,0.9735,MPHASIS,MPHASIS LTD.,BSE,,MPHASIS.BO,downloaded,67.0,,mapped_and_priced
+India,SRF,inclusion,,,no_country_candidate,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+India,TATA POWER CO,inclusion,TATAPOWER.NS,TATAPOWER.NS,mapped_yahoo_search,1.13,TATA POWER CO,TATA POWER CO LTD,NSI,,TATAPOWER.NS,cached,439.0,,mapped_and_priced
+India,ZOMATO,inclusion,,,no_search_result,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Korea,DAEWOO SHIPBUILDING,deletion,003090.KS,003090.KS,mapped_yahoo_search,0.8654,DAEWOO,Daewoong,KSC,,003090.KS,downloaded,803.0,,mapped_and_priced
+Korea,FILA HOLDINGS,deletion,,,no_country_candidate,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Korea,SHINSEGAE CO (NEW),deletion,004170.KS,004170.KS,mapped_yahoo_search,1.0326,SHINSEGAE,Shinsegae,KSC,,004170.KS,downloaded,65.0,,mapped_and_priced
+Korea,F&F (NEW),inclusion,,,no_country_candidate,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Korea,ILJIN MATERIALS,inclusion,103590.KS,103590.KS,mapped_yahoo_search,0.8426,ILJIN,ILJIN ELECTRIC,KSC,,103590.KS,downloaded,65.0,,mapped_and_priced
+Korea,KAKAO GAMES,inclusion,293490.KQ,293490.KQ,mapped_yahoo_search,1.15,KAKAO GAMES,Kakao Games,KOE,,293490.KQ,downloaded,557.0,,mapped_and_priced
+Korea,KRAFTON,inclusion,259960.KS,259960.KS,mapped_yahoo_search,1.25,KRAFTON,KRAFTON,KSC,,259960.KS,downloaded,65.0,,mapped_and_priced
+Korea,L&F CO,inclusion,,,no_country_candidate,0.3,L&F CO,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Korea,SD BIOSENSOR,inclusion,137310.KS,137310.KS,mapped_yahoo_search,1.25,SD BIOSENSOR,SD Biosensor,KSC,,137310.KS,downloaded,432.0,,mapped_and_priced
+USA,ALTICE USA A,deletion,OPTU,OPTU,existing_repo_mapping,1.0,existing_repo_mapping,,,,OPTU,downloaded,760.0,,mapped_and_priced
+USA,AUTOLIV,deletion,ALV,ALV,existing_repo_mapping,1.0,existing_repo_mapping,,,,ALV,downloaded,69.0,,mapped_and_priced
+USA,BOSTON BEER A,deletion,SAM,SAM,existing_repo_mapping,1.0,existing_repo_mapping,,,,SAM,downloaded,196.0,,mapped_and_priced
+USA,LAMB WESTON HOLDINGS,deletion,LW,LW,existing_repo_mapping,1.0,existing_repo_mapping,,,,LW,downloaded,1636.0,,mapped_and_priced
+USA,OMEGA HEALTHCARE INVESTO,deletion,OHI,,unsupported_country,,,,,No country suffix rules configured.,OHI,,,,unsupported_country
+USA,PINNACLE WEST CAPITAL,deletion,PNW,PNW,existing_repo_mapping,1.0,existing_repo_mapping,,,,PNW,downloaded,69.0,,mapped_and_priced
+USA,RENAISSANCERE HOLDINGS,deletion,RNR,RNR,existing_repo_mapping,1.0,existing_repo_mapping,,,,RNR,downloaded,69.0,,mapped_and_priced
+USA,VOYA FINANCIAL,deletion,VOYAPRB,VOYAPRB,existing_repo_mapping,1.0,existing_repo_mapping,,,,VOYAPRB,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,AFFIRM HOLDINGS A,inclusion,AFRM,AFRM,existing_repo_mapping,1.0,existing_repo_mapping,,,,AFRM,downloaded,1005.0,,mapped_and_priced
+USA,ASANA A,inclusion,ASAN,ASAN,existing_repo_mapping,1.0,existing_repo_mapping,,,,ASAN,downloaded,194.0,,mapped_and_priced
+USA,BILL.COM HOLDINGS,inclusion,BILL,BILL,existing_repo_mapping,1.0,existing_repo_mapping,,,,BILL,downloaded,696.0,,mapped_and_priced
+USA,COINBASE GLOBAL A,inclusion,COIN,COIN,existing_repo_mapping,1.0,existing_repo_mapping,,,,COIN,downloaded,69.0,,mapped_and_priced
+USA,DIAMONDBACK ENERGY,inclusion,FANG,FANG,existing_repo_mapping,1.0,existing_repo_mapping,,,,FANG,downloaded,321.0,,mapped_and_priced
+USA,ENTEGRIS,inclusion,ENTG,ENTG,existing_repo_mapping,1.0,existing_repo_mapping,,,,ENTG,downloaded,69.0,,mapped_and_priced
+USA,LUCID GROUP A,inclusion,LCID,LCID,existing_repo_mapping,1.0,existing_repo_mapping,,,,LCID,downloaded,69.0,,mapped_and_priced
+USA,NUANCE COMMUNICATIONS,inclusion,NUAN,NUAN,existing_repo_mapping,1.0,existing_repo_mapping,,,,NUAN,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,ROBINHOOD MARKETS A,inclusion,HOOD,HOOD,existing_repo_mapping,1.0,existing_repo_mapping,,,,HOOD,downloaded,508.0,,mapped_and_priced
+USA,SIGNATURE BANK,inclusion,SBNYL,SBNY,existing_repo_mapping,1.0,existing_repo_mapping,,,,SBNYL,,,,mapped_price_status_unknown
+USA,SOFI TECHNOLOGIES,inclusion,SOFI,SOFI,existing_repo_mapping,1.0,existing_repo_mapping,,,,SOFI,downloaded,1005.0,,mapped_and_priced
+USA,UPSTART HOLDINGS,inclusion,UPST,UPST,existing_repo_mapping,1.0,existing_repo_mapping,,,,UPST,downloaded,257.0,,mapped_and_priced
+USA,ZOOMINFO TECH A,inclusion,GTM,GTM,existing_repo_mapping,1.0,existing_repo_mapping,,,,GTM,downloaded,572.0,,mapped_and_priced
+Indonesia,BANK JAGO,inclusion,ARTO.JK,ARTO.JK,mapped_yahoo_search,1.0921,BANK JAGO,Bank Jago Tbk.,JKT,,ARTO.JK,downloaded,314.0,,mapped_and_priced
+Korea,DUZONBIZON CO,deletion,,,no_search_result,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Korea,SHIN POONG PHARMA CO,deletion,,,no_country_candidate,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Korea,MERITZ FINANCIAL HOLDING,inclusion,138040.KS,138040.KS,mapped_yahoo_search,1.0608,MERITZ FINANCIAL,Meritz Financial,KSC,,138040.KS,downloaded,250.0,,mapped_and_priced
+Korea,MERITZ FIRE & MARINE INS,inclusion,610047.KS,610047.KS,mapped_yahoo_search,0.7151,MERITZ,MERITZ INVERSE KTB 3Y ETN,KSC,,610047.KS,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,OAK STREET HEALTH,deletion,OSH,OSH,existing_repo_mapping,1.0,existing_repo_mapping,,,,OSH,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,KIMCO REALTY CORP,inclusion,KIM,KIM,existing_repo_mapping,1.0,existing_repo_mapping,,,,KIM,downloaded,67.0,,mapped_and_priced
+India,HDFC ASSET MANAGEMENT,deletion,HDFCAMC.BO,HDFCAMC.BO,mapped_yahoo_search,0.9944,HDFC ASSET MANAGEMENT,HDFC Asset Management Company,BSE,,HDFCAMC.BO,downloaded,1000.0,,mapped_and_priced
+India,ADANI POWER,inclusion,ADANIPOWER.NS,ADANIPOWER.NS,mapped_yahoo_search,1.1196,ADANI POWER,ADANI POWER LTD,NSI,,ADANIPOWER.NS,downloaded,66.0,,mapped_and_priced
+India,AU SMALL FINANCE BANK,inclusion,AUBANK.NS,AUBANK.NS,mapped_yahoo_search,1.1731,AU SMALL FINANCE BANK,AU SMALL FINANCE BANK LTD,NSI,,AUBANK.NS,downloaded,66.0,,mapped_and_priced
+India,JINDAL STEEL & POWER,inclusion,JINDALSTEL.NS,JINDALSTEL.NS,mapped_yahoo_search,0.8986,JINDAL STEEL,JINDAL STEEL LIMITED,NSI,,JINDALSTEL.NS,downloaded,66.0,,mapped_and_priced
+India,TATA ELXSI,inclusion,TATAELXSI.BO,TATAELXSI.BO,mapped_yahoo_search,1.0071,TATA ELXSI,TATA ELXSI LTD.,BSE,,TATAELXSI.BO,cached,65.0,,mapped_and_priced
+Indonesia,INDOCEMENT TUNGGAL,deletion,INTP.JK,INTP.JK,mapped_yahoo_search,1.0056,INDOCEMENT TUNGGAL,Indocement Tunggal Prakarsa Tbk,JKT,,INTP.JK,downloaded,60.0,,mapped_and_priced
+Indonesia,ADARO MINERALS INDONESIA,inclusion,AADI.JK,AADI.JK,mapped_yahoo_search,0.9891,ADARO,Adaro Andalan Indonesia Tbk.,JKT,,AADI.JK,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+Indonesia,SUMBER ALFARIA TRIJAYA,inclusion,AMRT.JK,AMRT.JK,mapped_yahoo_search,1.1802,SUMBER ALFARIA TRIJAYA,Sumber Alfaria Trijaya Tbk,JKT,,AMRT.JK,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+Indonesia,VALE INDONESIA,inclusion,INCO.JK,INCO.JK,mapped_yahoo_search,1.1466,VALE INDONESIA,Vale Indonesia Tbk.,JKT,,INCO.JK,downloaded,432.0,,mapped_and_priced
+Korea,HYUNDAI HEAVY INDUSTRIES,inclusion,329180.KS,329180.KS,mapped_yahoo_search,1.0565,HYUNDAI HEAVY INDUSTRIES,HD HYUNDAI HEAVY INDUSTRIES,KSC,,329180.KS,downloaded,66.0,,mapped_and_priced
+USA,10X GENOMICS A,deletion,TXG,TXG,existing_repo_mapping,1.0,existing_repo_mapping,,,,TXG,downloaded,446.0,,mapped_and_priced
+USA,AGNC INVESTMENT CORP,deletion,AGNC,AGNC,existing_repo_mapping,1.0,existing_repo_mapping,,,,AGNC,downloaded,68.0,,mapped_and_priced
+USA,ASANA A,deletion,ASAN,ASAN,existing_repo_mapping,1.0,existing_repo_mapping,,,,ASAN,downloaded,194.0,,mapped_and_priced
+USA,DRAFTKINGS A,deletion,DKNG,DKNG,existing_repo_mapping,1.0,existing_repo_mapping,,,,DKNG,downloaded,760.0,,mapped_and_priced
+USA,IPG PHOTONICS,deletion,IPGP,IPGP,existing_repo_mapping,1.0,existing_repo_mapping,,,,IPGP,downloaded,1199.0,,mapped_and_priced
+USA,LIBERTY BROADBAND A,deletion,LBRDA,LBRDA,existing_repo_mapping,1.0,existing_repo_mapping,,,,LBRDA,downloaded,68.0,,mapped_and_priced
+USA,NOVAVAX,deletion,NVAX,NVAX,existing_repo_mapping,1.0,existing_repo_mapping,,,,NVAX,downloaded,321.0,,mapped_and_priced
+USA,ROBINHOOD MARKETS A,deletion,HOOD,HOOD,existing_repo_mapping,1.0,existing_repo_mapping,,,,HOOD,downloaded,508.0,,mapped_and_priced
+USA,ALCOA (NEW),inclusion,AA,AA,existing_repo_mapping,1.0,existing_repo_mapping,,,,AA,downloaded,382.0,,mapped_and_priced
+USA,AMERICAN HOMES 4 RENT A,inclusion,AMH,AMH,existing_repo_mapping,1.0,existing_repo_mapping,,,,AMH,downloaded,68.0,,mapped_and_priced
+USA,APA CORPORATION,inclusion,APA,APA,existing_repo_mapping,1.0,existing_repo_mapping,,,,APA,downloaded,1261.0,,mapped_and_priced
+USA,APPLOVIN CORP A,inclusion,APP,APP,existing_repo_mapping,1.0,existing_repo_mapping,,,,APP,downloaded,195.0,,mapped_and_priced
+USA,CLEVELAND CLIFFS,inclusion,CLF,CLF,existing_repo_mapping,1.0,existing_repo_mapping,,,,CLF,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,LPL FINANCIAL HOLDINGS,inclusion,LPLA,LPLA,existing_repo_mapping,1.0,existing_repo_mapping,,,,LPLA,downloaded,68.0,,mapped_and_priced
+USA,MARATHON OIL CORP,inclusion,MRO,MRO,existing_repo_mapping,1.0,existing_repo_mapping,,,,MRO,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+Korea,SK TELECOM CO,deletion,017670.KS,017670.KS,mapped_yahoo_search,1.15,SK TELECOM CO,SKTelecom,KSC,,017670.KS,downloaded,378.0,,mapped_and_priced
+USA,CARVANA A,deletion,CVNA,CVNA,existing_repo_mapping,1.0,existing_repo_mapping,,,,CVNA,downloaded,1072.0,,mapped_and_priced
+USA,PELOTON INTERACTIVE A,deletion,PTON,PTON,existing_repo_mapping,1.0,existing_repo_mapping,,,,PTON,downloaded,571.0,,mapped_and_priced
+USA,UPSTART HOLDINGS,deletion,UPST,UPST,existing_repo_mapping,1.0,existing_repo_mapping,,,,UPST,downloaded,257.0,,mapped_and_priced
+USA,CARLISLE COS,inclusion,CSL,CSL,existing_repo_mapping,1.0,existing_repo_mapping,,,,CSL,downloaded,68.0,,mapped_and_priced
+USA,GAMING & LEISURE PPTYS,inclusion,GLPI,GLPI,existing_repo_mapping,1.0,existing_repo_mapping,,,,GLPI,downloaded,68.0,,mapped_and_priced
+India,ABB INDIA,inclusion,ABB.NS,ABB.NS,mapped_yahoo_search,0.9457,ABB INDIA,ABB INDIA LIMITED,NSI,,ABB.NS,downloaded,68.0,,mapped_and_priced
+India,BAJAJ HLDGS & INVESTMENT,inclusion,BAJAJHFL.NS,BAJAJHFL.NS,mapped_yahoo_search,0.6944,BAJAJ,BAJAJ HOUSING FINANCE LTD,NSI,,BAJAJHFL.NS,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+India,INDIAN HOTELS CO,inclusion,INDHOTEL.BO,INDHOTEL.BO,mapped_yahoo_search,1.0532,INDIAN HOTELS CO,INDIAN HOTELS CO.LTD.,BSE,,INDHOTEL.BO,downloaded,68.0,,mapped_and_priced
+India,TUBE INVESTMENT (NEW),inclusion,TIINDIA.NS,TIINDIA.NS,mapped_yahoo_search,0.8986,TUBE INVESTMENT,TUBE INVEST OF INDIA LTD,NSI,,TIINDIA.NS,cached,68.0,,mapped_and_priced
+India,TVS MOTOR CO,inclusion,TVSMOTOR.NS,TVSMOTOR.NS,mapped_yahoo_search,0.9643,TVS MOTOR CO,TVS MOTOR COMPANY  LTD,NSI,,TVSMOTOR.NS,cached,68.0,,mapped_and_priced
+India,VARUN BEVERAGES,inclusion,VBL.NS,VBL.NS,mapped_yahoo_search,1.05,VARUN BEVERAGES,VARUN BEVERAGES LIMITED,NSI,,VBL.NS,cached,68.0,,mapped_and_priced
+Indonesia,ADARO MINERALS INDONESIA,deletion,AADI.JK,AADI.JK,mapped_yahoo_search,0.9891,ADARO,Adaro Andalan Indonesia Tbk.,JKT,,AADI.JK,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+Indonesia,GUDANG GARAM,deletion,GGRM.JK,GGRM.JK,mapped_yahoo_search,1.13,GUDANG GARAM,Gudang Garam Tbk,JKT,,GGRM.JK,downloaded,71.0,,mapped_and_priced
+Korea,ALTEOGEN,deletion,196170.KQ,196170.KQ,mapped_yahoo_search,1.15,ALTEOGEN,Alteogen,KOE,,196170.KQ,downloaded,988.0,,mapped_and_priced
+Korea,AMOREG,deletion,,,no_search_result,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Korea,CJ ENM CO,deletion,035760.KQ,035760.KQ,mapped_yahoo_search,0.9833,CJ ENM CO,CJ ENM,KOE,,035760.KQ,downloaded,68.0,,mapped_and_priced
+Korea,CJ LOGISTICS CORP,deletion,000120.KS,000120.KS,mapped_yahoo_search,1.0962,CJ LOGISTICS CORP,CJ LOGISTICS,KSC,,000120.KS,downloaded,68.0,,mapped_and_priced
+Korea,GREEN CROSS CORP,deletion,,,no_country_candidate,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Korea,GS ENGINEERING & CONSTR,deletion,006360.KS,006360.KS,mapped_yahoo_search,0.5828,GS ENGINEERING & CONSTR,GS E&C,KSC,,006360.KS,downloaded,68.0,,mapped_and_priced
+Korea,LG H&H PREF,deletion,,,no_country_candidate,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Korea,MERITZ FINANCIAL HOLDING,deletion,138040.KS,138040.KS,mapped_yahoo_search,1.0608,MERITZ FINANCIAL,Meritz Financial,KSC,,138040.KS,downloaded,250.0,,mapped_and_priced
+Korea,SEEGENE,deletion,096530.KQ,096530.KQ,mapped_yahoo_search,1.15,SEEGENE,SEEGENE,KOE,,096530.KQ,downloaded,621.0,,mapped_and_priced
+Korea,SK CHEMICALS (NEW),deletion,285130.KS,285130.KS,mapped_yahoo_search,0.85,SK CHEMICALS,SKCHEM,KSC,,285130.KS,downloaded,558.0,,mapped_and_priced
+Korea,HYUNDAI MIPO DOCKYARD,inclusion,004310.KS,004310.KS,mapped_yahoo_search,0.8952,HYUNDAI,Hyundai pharm,KSC,,004310.KS,downloaded,374.0,,mapped_and_priced
+USA,AMC ENTERTAINMENT HLDG A,deletion,AMC,AMC,existing_repo_mapping,1.0,existing_repo_mapping,,,,AMC,downloaded,384.0,,mapped_and_priced
+USA,AMC ENTMT HLDG PREF UNIT,deletion,APE,APE,existing_repo_mapping,1.0,existing_repo_mapping,,,,APE,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,APPLOVIN CORP A,deletion,APP,APP,existing_repo_mapping,1.0,existing_repo_mapping,,,,APP,downloaded,195.0,,mapped_and_priced
+USA,CABLE ONE,deletion,CABO,CABO,existing_repo_mapping,1.0,existing_repo_mapping,,,,CABO,downloaded,699.0,,mapped_and_priced
+USA,COUPA SOFTWARE,deletion,COUP,COUP,existing_repo_mapping,1.0,existing_repo_mapping,,,,COUP,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,GUIDEWIRE SOFTWARE,deletion,GWRE,GWRE,existing_repo_mapping,1.0,existing_repo_mapping,,,,GWRE,downloaded,828.0,,mapped_and_priced
+USA,LYFT A,deletion,LYFT,LYFT,existing_repo_mapping,1.0,existing_repo_mapping,,,,LYFT,downloaded,448.0,,mapped_and_priced
+USA,RING CENTRAL A,deletion,REI,REI,existing_repo_mapping,1.0,existing_repo_mapping,,,,REI,downloaded,70.0,,mapped_and_priced
+USA,TELADOC HEALTH,deletion,TDOC,TDOC,existing_repo_mapping,1.0,existing_repo_mapping,,,,TDOC,downloaded,70.0,,mapped_and_priced
+USA,VORNADO REALTY TRUST,deletion,VON,VON,existing_repo_mapping,1.0,existing_repo_mapping,,,,VON,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,WAYFAIR A,deletion,W,W,existing_repo_mapping,1.0,existing_repo_mapping,,,,W,downloaded,1074.0,,mapped_and_priced
+USA,ARES MANAGEMENT CORP,inclusion,ARESPRB,ARESPRB,existing_repo_mapping,1.0,existing_repo_mapping,,,,ARESPRB,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,ASPEN TECHNOLOGY,inclusion,AZPN,AZPN,existing_repo_mapping,1.0,existing_repo_mapping,,,,AZPN,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,CHESAPEAKE ENERGY CORP,inclusion,,,unsupported_country,,,,,No country suffix rules configured.,,,,,unsupported_country
+USA,CONTINENTAL RESOURCES,inclusion,CLR,CLR,existing_repo_mapping,1.0,existing_repo_mapping,,,,CLR,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,DARLING INGREDIENTS,inclusion,DAR,DAR,existing_repo_mapping,1.0,existing_repo_mapping,,,,DAR,downloaded,445.0,,mapped_and_priced
+USA,FERGUSON (US),inclusion,FERG,FERG,existing_repo_mapping,1.0,existing_repo_mapping,,,,FERG,downloaded,70.0,,mapped_and_priced
+USA,FIRST HORIZON NATIONAL,inclusion,FHN,FHN,existing_repo_mapping,1.0,existing_repo_mapping,,,,FHN,downloaded,321.0,,mapped_and_priced
+USA,FIRST SOLAR,inclusion,FSLR,FSLR,existing_repo_mapping,1.0,existing_repo_mapping,,,,FSLR,downloaded,70.0,,mapped_and_priced
+USA,HF SINCLAIR,inclusion,DINO,DINO,existing_repo_mapping,1.0,existing_repo_mapping,,,,DINO,downloaded,632.0,,mapped_and_priced
+USA,HUBBELL,inclusion,HUBB,HUBB,existing_repo_mapping,1.0,existing_repo_mapping,,,,HUBB,downloaded,70.0,,mapped_and_priced
+USA,OVINTIV(US),inclusion,OVV,OVV,existing_repo_mapping,1.0,existing_repo_mapping,,,,OVV,downloaded,695.0,,mapped_and_priced
+USA,PAYLOCITY HOLDING CORP,inclusion,PCTY,PCTY,existing_repo_mapping,1.0,existing_repo_mapping,,,,PCTY,downloaded,508.0,,mapped_and_priced
+USA,REPLIGEN CORP,inclusion,RGEN,RGEN,existing_repo_mapping,1.0,existing_repo_mapping,,,,RGEN,downloaded,508.0,,mapped_and_priced
+USA,TOAST A,inclusion,TOST,TOST,existing_repo_mapping,1.0,existing_repo_mapping,,,,TOST,downloaded,70.0,,mapped_and_priced
+USA,WOLFSPEED,inclusion,WOLF,WOLF,existing_repo_mapping,1.0,existing_repo_mapping,,,,WOLF,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+India,BIOCON LTD,deletion,BIOCON.BO,BIOCON.BO,mapped_yahoo_search,1.15,BIOCON LTD,BIOCON LTD.,BSE,,BIOCON.BO,downloaded,750.0,,mapped_and_priced
+India,BANK OF BARODA,inclusion,BANKBARODA.NS,BANKBARODA.NS,mapped_yahoo_search,1.25,BANK OF BARODA,BANK OF BARODA,NSI,,BANKBARODA.NS,downloaded,68.0,,mapped_and_priced
+India,CG POWER & INDUSTRIAL,inclusion,CGPOWER.BO,CGPOWER.BO,mapped_yahoo_search,1.0196,CG POWER AND INDUSTRIAL,CG Power and Industrial Soluti,BSE,,CGPOWER.BO,downloaded,68.0,,mapped_and_priced
+Indonesia,BANK JAGO,deletion,ARTO.JK,ARTO.JK,mapped_yahoo_search,1.0921,BANK JAGO,Bank Jago Tbk.,JKT,,ARTO.JK,downloaded,314.0,,mapped_and_priced
+Korea,KAKAOPAY CORP,inclusion,377300.KS,377300.KS,mapped_yahoo_search,1.05,KAKAOPAY,kakaopay,KSC,,377300.KS,downloaded,373.0,,mapped_and_priced
+India,ADANI TOTAL GAS,deletion,ATGL.NS,ATGL.NS,mapped_yahoo_search,1.0379,ADANI TOTAL GAS,ADANI TOTAL GAS LIMITED,NSI,,ATGL.NS,downloaded,562.0,,mapped_and_priced
+India,ADANI TRANSMISSION,deletion,ADANIENSOL.NS,ADANIENSOL.NS,mapped_yahoo_search,0.7115,ADANI,ADANI ENERGY SOLUTION LTD,NSI,,ADANIENSOL.NS,downloaded,562.0,,mapped_and_priced
+India,INDUS TOWERS,deletion,INDUSTOWER.NS,INDUSTOWER.NS,mapped_yahoo_search,1.0086,INDUS TOWERS,INDUS TOWERS LIMITED,NSI,,INDUSTOWER.NS,downloaded,310.0,,mapped_and_priced
+India,HINDUSTAN AERONAUTICS,inclusion,HAL.NS,HAL.NS,mapped_yahoo_search,1.1802,HINDUSTAN AERONAUTICS,HINDUSTAN AERONAUTICS LTD,NSI,,HAL.NS,downloaded,66.0,,mapped_and_priced
+India,MAX HEALTHCARE INSTITUTE,inclusion,MAXHEALTH.NS,MAXHEALTH.NS,mapped_yahoo_search,1.0793,MAX HEALTHCARE INSTITUTE,MAX HEALTHCARE INS LTD,NSI,,MAXHEALTH.NS,downloaded,66.0,,mapped_and_priced
+India,SONA BLW PRECISION,inclusion,SONACOMS.NS,SONACOMS.NS,mapped_yahoo_search,1.1149,SONA BLW PRECISION,SONA BLW PRECISION FRGS L,NSI,,SONACOMS.NS,cached,618.0,,mapped_and_priced
+Indonesia,GOTO GOJEK TOKOPEDIA,inclusion,GOTO.JK,GOTO.JK,mapped_yahoo_search,1.1731,GOTO GOJEK TOKOPEDIA,GoTo Gojek Tokopedia Tbk.,JKT,,GOTO.JK,downloaded,59.0,,mapped_and_priced
+Korea,CHEIL WORLDWIDE,deletion,030000.KS,030000.KS,mapped_yahoo_search,1.25,CHEIL WORLDWIDE,CheilWorldwide,KSC,,030000.KS,downloaded,67.0,,mapped_and_priced
+Korea,LOTTE SHOPPING CO,deletion,023530.KS,023530.KS,mapped_yahoo_search,1.1786,LOTTE SHOPPING CO,LOTTE SHOPPING,KSC,,023530.KS,downloaded,67.0,,mapped_and_priced
+Korea,S1 CORPORATION,deletion,,,no_country_candidate,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Korea,SD BIOSENSOR,deletion,137310.KS,137310.KS,mapped_yahoo_search,1.25,SD BIOSENSOR,SD Biosensor,KSC,,137310.KS,downloaded,432.0,,mapped_and_priced
+Korea,COSMO ADVANCED MATRLS,inclusion,005070.KS,005070.KS,mapped_yahoo_search,0.9167,COSMO ADVANCED,CosmoAM&T,KSC,,005070.KS,downloaded,432.0,,mapped_and_priced
+Korea,HANWHA AEROSPACE,inclusion,012450.KS,012450.KS,mapped_yahoo_search,1.25,HANWHA AEROSPACE,HANWHA AEROSPACE,KSC,,012450.KS,downloaded,67.0,,mapped_and_priced
+Korea,KT CORP,inclusion,058850.KS,058850.KS,mapped_yahoo_search,0.7,KT CORP,KTcs,KSC,,058850.KS,downloaded,1418.0,,mapped_and_priced
+Korea,POSCO INTERNATIONAL,inclusion,047050.KS,047050.KS,mapped_yahoo_search,1.25,POSCO INTERNATIONAL,POSCO INTERNATIONAL,KSC,,047050.KS,downloaded,680.0,,mapped_and_priced
+USA,DISH NETWORK A,deletion,DISH,DISH,existing_repo_mapping,1.0,existing_repo_mapping,,,,DISH,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,ELANCO ANIMAL HEALTH,deletion,ELAN,ELAN,existing_repo_mapping,1.0,existing_repo_mapping,,,,ELAN,downloaded,68.0,,mapped_and_priced
+USA,FIRST REPUBLIC BANK,deletion,FRCKL,FRCKL,existing_repo_mapping,1.0,existing_repo_mapping,,,,FRCKL,downloaded,68.0,,mapped_and_priced
+USA,LIBERTY SIRIUSXM A,deletion,,,unsupported_country,,,,,No country suffix rules configured.,,,,,unsupported_country
+USA,MEDICAL PROPERTIES TRUST,deletion,MPT,MPT,existing_repo_mapping,1.0,existing_repo_mapping,,,,MPT,downloaded,951.0,,mapped_and_priced
+USA,NEWELL BRANDS,deletion,NWL,NWL,existing_repo_mapping,1.0,existing_repo_mapping,,,,NWL,downloaded,68.0,,mapped_and_priced
+USA,PLUG POWER,deletion,PLUG,PLUG,existing_repo_mapping,1.0,existing_repo_mapping,,,,PLUG,downloaded,632.0,,mapped_and_priced
+USA,ALBERTSONS COMPANIES A,inclusion,ACI,ACI,existing_repo_mapping,1.0,existing_repo_mapping,,,,ACI,downloaded,68.0,,mapped_and_priced
+USA,BUILDERS FIRSTSOURCE,inclusion,BLDR,BLDR,existing_repo_mapping,1.0,existing_repo_mapping,,,,BLDR,downloaded,68.0,,mapped_and_priced
+USA,DECKERS OUTDOOR CORP,inclusion,DECK,DECK,existing_repo_mapping,1.0,existing_repo_mapping,,,,DECK,downloaded,68.0,,mapped_and_priced
+USA,DICKS SPORTING GOODS,inclusion,DKS,DKS,existing_repo_mapping,1.0,existing_repo_mapping,,,,DKS,downloaded,1449.0,,mapped_and_priced
+USA,HYATT HOTELS A,inclusion,H,H,existing_repo_mapping,1.0,existing_repo_mapping,,,,H,downloaded,68.0,,mapped_and_priced
+USA,LATTICE SEMICONDUCTOR,inclusion,LSCC,LSCC,existing_repo_mapping,1.0,existing_repo_mapping,,,,LSCC,downloaded,383.0,,mapped_and_priced
+USA,UIPATH A,inclusion,PATH,PATH,existing_repo_mapping,1.0,existing_repo_mapping,,,,PATH,downloaded,383.0,,mapped_and_priced
+USA,WATSCO,inclusion,WSO,WSO,existing_repo_mapping,1.0,existing_repo_mapping,,,,WSO,downloaded,68.0,,mapped_and_priced
+India,ASHOK LEYLAND,inclusion,ASHOKLEY.NS,ASHOKLEY.NS,mapped_yahoo_search,1.1389,ASHOK LEYLAND,ASHOK LEYLAND LTD,NSI,,ASHOKLEY.NS,downloaded,874.0,,mapped_and_priced
+India,ASTRAL,inclusion,ASTRAL.BO,ASTRAL.BO,mapped_yahoo_search,0.7816,ASTRAL,ASTRAL LIMITED,BSE,,ASTRAL.BO,downloaded,69.0,,mapped_and_priced
+India,CUMMINS INDIA KIRLOSKAR,inclusion,CUMMINSIND.NS,CUMMINSIND.NS,mapped_yahoo_search,0.9722,CUMMINS INDIA,CUMMINS INDIA LTD,NSI,,CUMMINSIND.NS,downloaded,69.0,,mapped_and_priced
+India,IDFC FIRST BANK,inclusion,IDFCFIRSTB.NS,IDFCFIRSTB.NS,mapped_yahoo_search,1.0379,IDFC FIRST BANK,IDFC FIRST BANK LIMITED,NSI,,IDFCFIRSTB.NS,downloaded,1363.0,,mapped_and_priced
+India,POWER FINANCE CORP,inclusion,PFC.NS,PFC.NS,mapped_manual_alias,1.0,manual_alias,,,,PFC.NS,cached,1363.0,,mapped_and_priced
+India,REC,inclusion,,,no_country_candidate,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+India,SUPREME INDUSTRIES,inclusion,SUPREMEIND.NS,SUPREMEIND.NS,mapped_yahoo_search,1.1689,SUPREME INDUSTRIES,SUPREME INDUSTRIES LTD,NSI,,SUPREMEIND.NS,cached,69.0,,mapped_and_priced
+Korea,CJ CORP,deletion,001045.KS,001045.KS,mapped_yahoo_search,0.7,CJ CORP,CJ(1P),KSC,,001045.KS,downloaded,71.0,,mapped_and_priced
+Korea,EMART CO,deletion,139480.KS,139480.KS,mapped_yahoo_search,1.0833,EMART,emart,KSC,,139480.KS,downloaded,71.0,,mapped_and_priced
+Korea,ECOPRO CO,inclusion,086520.KQ,086520.KQ,mapped_yahoo_search,1.0071,ECOPRO CO,ECOPRO,KOE,,086520.KQ,downloaded,71.0,,mapped_and_priced
+Korea,HANMI SEMICONDUCTOR CO,inclusion,042700.KS,042700.KS,mapped_yahoo_search,0.8707,HANMI SEMICONDUCTOR CO,HANMISemi,KSC,,042700.KS,downloaded,71.0,,mapped_and_priced
+Korea,HANWHA OCEAN,inclusion,042660.KS,042660.KS,mapped_yahoo_search,1.25,HANWHA OCEAN,Hanwha Ocean,KSC,,042660.KS,downloaded,71.0,,mapped_and_priced
+Korea,JYP ENTERTAINMENT,inclusion,035900.KQ,035900.KQ,mapped_yahoo_search,0.6955,JYP ENTERTAINMENT,JYP Ent.,KOE,,035900.KQ,downloaded,190.0,,mapped_and_priced
+USA,ADVANCE AUTO PARTS,deletion,AAP,AAP,existing_repo_mapping,1.0,existing_repo_mapping,,,,AAP,downloaded,69.0,,mapped_and_priced
+USA,ALCOA (NEW),deletion,AA,AA,existing_repo_mapping,1.0,existing_repo_mapping,,,,AA,downloaded,382.0,,mapped_and_priced
+USA,LIBERTY GLOBAL A,deletion,LBTYA,LBTYA,existing_repo_mapping,1.0,existing_repo_mapping,,,,LBTYA,downloaded,69.0,,mapped_and_priced
+USA,MASIMO,deletion,MASI,MASI,existing_repo_mapping,1.0,existing_repo_mapping,,,,MASI,downloaded,69.0,,mapped_and_priced
+USA,NOVOCURE,deletion,NVCR,NVCR,existing_repo_mapping,1.0,existing_repo_mapping,,,,NVCR,downloaded,760.0,,mapped_and_priced
+USA,UGI CORP,deletion,UGI,UGI,existing_repo_mapping,1.0,existing_repo_mapping,,,,UGI,downloaded,69.0,,mapped_and_priced
+USA,CONFLUENT A,inclusion,CFLT,CFLT,existing_repo_mapping,1.0,existing_repo_mapping,,,,CFLT,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,JABIL CIRCUIT,inclusion,JBL,JBL,existing_repo_mapping,1.0,existing_repo_mapping,,,,JBL,downloaded,69.0,,mapped_and_priced
+USA,MANHATTAN ASSOCIATES,inclusion,MANH,MANH,existing_repo_mapping,1.0,existing_repo_mapping,,,,MANH,downloaded,507.0,,mapped_and_priced
+USA,SUPER MICRO COMPUTER,inclusion,SMCI,SMCI,existing_repo_mapping,1.0,existing_repo_mapping,,,,SMCI,downloaded,69.0,,mapped_and_priced
+India,APL APOLLO TUBES,inclusion,APLAPOLLO.NS,APLAPOLLO.NS,mapped_yahoo_search,1.1532,APL APOLLO TUBES,APL APOLLO TUBES LTD,NSI,,APLAPOLLO.NS,downloaded,63.0,,mapped_and_priced
+India,INDUSIND BANK,inclusion,INDUSINDBK.BO,INDUSINDBK.BO,mapped_yahoo_search,1.0389,INDUSIND BANK,INDUSIND BANK LTD.,BSE,,INDUSINDBK.BO,downloaded,63.0,,mapped_and_priced
+India,MACROTECH DEVELOPERS,inclusion,,,no_search_result,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+India,ONE 97 COMMUNICATIONS,inclusion,PAYTM.NS,PAYTM.NS,mapped_yahoo_search,1.1768,ONE 97 COMMUNICATIONS,ONE 97 COMMUNICATIONS LTD,NSI,,PAYTM.NS,cached,183.0,,mapped_and_priced
+India,PERSISTENT SYSTEMS,inclusion,PERSISTENT.NS,PERSISTENT.NS,mapped_yahoo_search,1.1689,PERSISTENT SYSTEMS,PERSISTENT SYSTEMS LTD,NSI,,PERSISTENT.NS,cached,63.0,,mapped_and_priced
+India,POLYCAB INDIA,inclusion,POLYCAB.NS,POLYCAB.NS,mapped_yahoo_search,1.0242,POLYCAB INDIA,POLYCAB INDIA LIMITED,NSI,,POLYCAB.NS,cached,63.0,,mapped_and_priced
+India,SUZLON ENERGY LIMITED,inclusion,SUZLON.NS,SUZLON.NS,mapped_yahoo_search,1.25,SUZLON ENERGY LIMITED,SUZLON ENERGY LIMITED,NSI,,SUZLON.NS,cached,63.0,,mapped_and_priced
+India,TATA COMMUNICATIONS,inclusion,TATACOMM.NS,TATACOMM.NS,mapped_yahoo_search,1.1731,TATA COMMUNICATIONS,TATA COMMUNICATIONS LTD,NSI,,TATACOMM.NS,cached,63.0,,mapped_and_priced
+India,TATA MOTORS A,inclusion,TATAMTRDVR.NS,TATAMTRDVR.NS,mapped_manual_alias,1.0,manual_alias,,,,TATAMTRDVR.NS,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+Indonesia,VALE INDONESIA,deletion,INCO.JK,INCO.JK,mapped_yahoo_search,1.1466,VALE INDONESIA,Vale Indonesia Tbk.,JKT,,INCO.JK,downloaded,432.0,,mapped_and_priced
+Indonesia,AMMAN MINERAL INTL,inclusion,AMMN.JK,AMMN.JK,mapped_yahoo_search,0.9773,AMMAN MINERAL,Amman Mineral Internasional Tbk,JKT,,AMMN.JK,downloaded,67.0,,mapped_and_priced
+Korea,BGF RETAIL (NEW),deletion,282330.KS,282330.KS,mapped_yahoo_search,1.1071,BGF RETAIL,BGF Retail,KSC,,282330.KS,downloaded,63.0,,mapped_and_priced
+Korea,KAKAO GAMES,deletion,293490.KQ,293490.KQ,mapped_yahoo_search,1.15,KAKAO GAMES,Kakao Games,KOE,,293490.KQ,downloaded,557.0,,mapped_and_priced
+Korea,LOTTE ENERGY MATERIALS,deletion,020150.KS,020150.KS,mapped_yahoo_search,1.1591,LOTTE ENERGY MATERIALS,LOTTE ENERGY MATERIALS Corp,KSC,,020150.KS,downloaded,63.0,,mapped_and_priced
+Korea,PANOCEAN,deletion,028670.KS,028670.KS,mapped_manual_alias,1.0,manual_alias,,,,028670.KS,downloaded,1660.0,,mapped_and_priced
+Korea,KUMYANG,inclusion,282720.KQ,282720.KQ,mapped_yahoo_search,0.5455,KUMYANG,KYGP,KOE,,282720.KQ,downloaded,303.0,,mapped_and_priced
+Korea,POSCO DX COMPANY,inclusion,022100.KS,022100.KS,mapped_yahoo_search,0.9167,POSCO DX COMPANY,POSCO DX,KSC,,022100.KS,downloaded,363.0,,mapped_and_priced
+Korea,SK TELECOM CO,inclusion,017670.KS,017670.KS,mapped_yahoo_search,1.15,SK TELECOM CO,SKTelecom,KSC,,017670.KS,downloaded,378.0,,mapped_and_priced
+USA,ARAMARK,deletion,ARMK,ARMK,existing_repo_mapping,1.0,existing_repo_mapping,,,,ARMK,downloaded,67.0,,mapped_and_priced
+USA,ARROW ELECTRONICS,deletion,ARW,ARW,existing_repo_mapping,1.0,existing_repo_mapping,,,,ARW,downloaded,67.0,,mapped_and_priced
+USA,CHEWY A,deletion,CHWY,CHWY,existing_repo_mapping,1.0,existing_repo_mapping,,,,CHWY,downloaded,824.0,,mapped_and_priced
+USA,CLARIVATE,deletion,CLVT,CLVT,existing_repo_mapping,1.0,existing_repo_mapping,,,,CLVT,downloaded,699.0,,mapped_and_priced
+USA,COGNEX CORP,deletion,CGNX,CGNX,existing_repo_mapping,1.0,existing_repo_mapping,,,,CGNX,downloaded,1577.0,,mapped_and_priced
+USA,DENTSPLY SIRONA,deletion,XRAY,XRAY,existing_repo_mapping,1.0,existing_repo_mapping,,,,XRAY,downloaded,67.0,,mapped_and_priced
+USA,FIRST HORIZON NATIONAL,deletion,FHN,FHN,existing_repo_mapping,1.0,existing_repo_mapping,,,,FHN,downloaded,321.0,,mapped_and_priced
+USA,GENERAC HOLDINGS,deletion,GNRC,GNRC,existing_repo_mapping,1.0,existing_repo_mapping,,,,GNRC,downloaded,824.0,,mapped_and_priced
+USA,HEALTHCARE REALTY T(NEW),deletion,HR,HR,existing_repo_mapping,1.0,existing_repo_mapping,,,,HR,downloaded,67.0,,mapped_and_priced
+USA,INVESCO LTD,deletion,IVZ,IVZ,existing_repo_mapping,1.0,existing_repo_mapping,,,,IVZ,downloaded,67.0,,mapped_and_priced
+USA,MOHAWK INDUSTRIES,deletion,MHK,MHK,existing_repo_mapping,1.0,existing_repo_mapping,,,,MHK,downloaded,67.0,,mapped_and_priced
+USA,SEALED AIR CORP,deletion,SEE,SEE,existing_repo_mapping,1.0,existing_repo_mapping,,,,SEE,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,SENSATA TECH HLDG,deletion,ST,ST,existing_repo_mapping,1.0,existing_repo_mapping,,,,ST,downloaded,67.0,,mapped_and_priced
+USA,SOLAREDGE TECHNOLOGIES,deletion,SEDG,SEDG,existing_repo_mapping,1.0,existing_repo_mapping,,,,SEDG,downloaded,824.0,,mapped_and_priced
+USA,WEBSTER FINANCIAL CORP,deletion,WBS,WBS,existing_repo_mapping,1.0,existing_repo_mapping,,,,WBS,downloaded,67.0,,mapped_and_priced
+USA,WHIRLPOOL CORP,deletion,WHR,WHR,existing_repo_mapping,1.0,existing_repo_mapping,,,,WHR,downloaded,67.0,,mapped_and_priced
+USA,WOLFSPEED,deletion,WOLF,WOLF,existing_repo_mapping,1.0,existing_repo_mapping,,,,WOLF,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,ZOOMINFO TECH A,deletion,GTM,GTM,existing_repo_mapping,1.0,existing_repo_mapping,,,,GTM,downloaded,572.0,,mapped_and_priced
+USA,CELSIUS HLDGS,inclusion,CELH,CELH,existing_repo_mapping,1.0,existing_repo_mapping,,,,CELH,downloaded,315.0,,mapped_and_priced
+USA,CNH INDUSTRIAL (US),inclusion,CNH,CNH,existing_repo_mapping,1.0,existing_repo_mapping,,,,CNH,downloaded,67.0,,mapped_and_priced
+USA,VERTIV HOLDINGS A,inclusion,VRT,VRT,existing_repo_mapping,1.0,existing_repo_mapping,,,,VRT,downloaded,67.0,,mapped_and_priced
+India,BHARAT HEAVY ELECTRICALS,inclusion,BHEL.BO,BHEL.BO,mapped_yahoo_search,1.0862,BHARAT HEAVY ELECTRICALS,BHARAT HEAVY ELECTRICALS LTD.,BSE,,BHEL.BO,downloaded,1359.0,,mapped_and_priced
+India,GMR AIRPORTS INFRA,inclusion,GMRAIRPORT.NS,GMRAIRPORT.NS,mapped_yahoo_search,0.9559,GMR AIRPORTS,GMR AIRPORTS LIMITED,NSI,,GMRAIRPORT.NS,downloaded,65.0,,mapped_and_priced
+India,NMDC,inclusion,NMDC.NS,NMDC.NS,mapped_yahoo_search,0.9773,NMDC,NMDC LTD.,NSI,,NMDC.NS,downloaded,65.0,,mapped_and_priced
+India,PUNJAB NATL BANK,inclusion,PNB.NS,PNB.NS,mapped_yahoo_search,1.125,PUNJAB,PUNJAB NATIONAL BANK,NSI,,PNB.NS,cached,65.0,,mapped_and_priced
+India,UNION BANK OF INDIA,inclusion,UNIONBANK.NS,UNIONBANK.NS,mapped_yahoo_search,1.25,UNION BANK OF INDIA,UNION BANK OF INDIA,NSI,,UNIONBANK.NS,cached,65.0,,mapped_and_priced
+Korea,F&F (NEW),deletion,,,no_country_candidate,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Korea,HOTEL SHILLA CO,deletion,008770.KS,008770.KS,mapped_yahoo_search,0.9182,HOTEL SHILLA CO,HtlShilla,KSC,,008770.KS,downloaded,63.0,,mapped_and_priced
+Korea,HYUNDAI MIPO DOCKYARD,deletion,004310.KS,004310.KS,mapped_yahoo_search,0.8952,HYUNDAI,Hyundai pharm,KSC,,004310.KS,downloaded,374.0,,mapped_and_priced
+Korea,JYP ENTERTAINMENT,deletion,035900.KQ,035900.KQ,mapped_yahoo_search,0.6955,JYP ENTERTAINMENT,JYP Ent.,KOE,,035900.KQ,downloaded,190.0,,mapped_and_priced
+Korea,PEARLABYSS,deletion,263750.KQ,263750.KQ,mapped_yahoo_search,1.15,PEARLABYSS,PearlAbyss,KOE,,263750.KQ,downloaded,1479.0,,mapped_and_priced
+Korea,ECOPRO MATERIALS,inclusion,450080.KS,450080.KS,mapped_yahoo_search,1.0,ECOPRO,ECOPRO MAT,KSC,,450080.KS,downloaded,364.0,,mapped_and_priced
+Korea,HANJIN KAL CORP,inclusion,18064K.KS,18064K.KS,mapped_yahoo_search,1.0833,HANJIN KAL,HANJINKAL(1P),KSC,,18064K.KS,downloaded,63.0,,mapped_and_priced
+India,BERGER PAINTS INDIA,deletion,BERGEPAINT.NS,BERGEPAINT.NS,mapped_yahoo_search,1.0985,BERGER PAINTS INDIA,BERGER PAINTS (I) LTD,NSI,,BERGEPAINT.NS,downloaded,1181.0,,mapped_and_priced
+India,INDRAPRASTHA GAS,deletion,IGL.NS,IGL.NS,mapped_yahoo_search,1.1591,INDRAPRASTHA GAS,INDRAPRASTHA GAS LTD,NSI,,IGL.NS,downloaded,1055.0,,mapped_and_priced
+India,ONE 97 COMMUNICATIONS,deletion,PAYTM.NS,PAYTM.NS,mapped_yahoo_search,1.1768,ONE 97 COMMUNICATIONS,ONE 97 COMMUNICATIONS LTD,NSI,,PAYTM.NS,cached,183.0,,mapped_and_priced
+India,BOSCH,inclusion,BOSCHLTD.BO,BOSCHLTD.BO,mapped_yahoo_search,0.9192,BOSCH,BOSCH LTD.,BSE,,BOSCHLTD.BO,downloaded,913.0,,mapped_and_priced
+India,CANARA BANK,inclusion,CANBK.NS,CANBK.NS,mapped_yahoo_search,1.25,CANARA BANK,CANARA BANK,NSI,,CANBK.NS,downloaded,62.0,,mapped_and_priced
+India,INDUS TOWERS,inclusion,INDUSTOWER.NS,INDUSTOWER.NS,mapped_yahoo_search,1.0086,INDUS TOWERS,INDUS TOWERS LIMITED,NSI,,INDUSTOWER.NS,downloaded,310.0,,mapped_and_priced
+India,JINDAL STAINLESS,inclusion,JSL.NS,JSL.NS,mapped_yahoo_search,1.0608,JINDAL STAINLESS,JINDAL STAINLESS LIMITED,NSI,,JSL.NS,downloaded,62.0,,mapped_and_priced
+India,JSW ENERGY,inclusion,JSWENERGY.BO,JSWENERGY.BO,mapped_yahoo_search,1.0071,JSW ENERGY,JSW ENERGY LTD,BSE,,JSWENERGY.BO,downloaded,61.0,,mapped_and_priced
+India,MANKIND PHARMA,inclusion,MANKIND.NS,MANKIND.NS,mapped_yahoo_search,1.0379,MANKIND PHARMA,MANKIND PHARMA LIMITED,NSI,,MANKIND.NS,downloaded,62.0,,mapped_and_priced
+India,NHPC,inclusion,NHPC.NS,NHPC.NS,mapped_yahoo_search,0.9773,NHPC,NHPC LTD,NSI,,NHPC.NS,downloaded,62.0,,mapped_and_priced
+India,PB FINTECH,inclusion,POLICYBZR.NS,POLICYBZR.NS,mapped_yahoo_search,0.97,PB FINTECH,PB FINTECH LIMITED,NSI,,POLICYBZR.NS,cached,62.0,,mapped_and_priced
+India,PHOENIX MILLS,inclusion,PHOENIXLTD.NS,PHOENIXLTD.NS,mapped_yahoo_search,0.9,PHOENIX MILLS,THE PHOENIX MILLS LTD,NSI,,PHOENIXLTD.NS,cached,62.0,,mapped_and_priced
+India,SOLAR INDUSTRIES INDIA,inclusion,SOLARINDS.NS,SOLARINDS.NS,mapped_yahoo_search,1.1218,SOLAR INDUSTRIES INDIA,SOLAR INDUSTRIES (I) LTD,NSI,,SOLARINDS.NS,cached,62.0,,mapped_and_priced
+India,SUNDARAM FINANCE,inclusion,SUNDARMFIN.NS,SUNDARMFIN.NS,mapped_yahoo_search,1.1591,SUNDARAM FINANCE,SUNDARAM FINANCE LTD,NSI,,SUNDARMFIN.NS,cached,62.0,,mapped_and_priced
+India,THERMAX,inclusion,THERMAX.NS,THERMAX.NS,mapped_yahoo_search,1.0735,THERMAX,THERMAX LTD,NSI,,THERMAX.NS,cached,370.0,,mapped_and_priced
+India,TORRENT POWER,inclusion,TORNTPOWER.NS,TORNTPOWER.NS,mapped_yahoo_search,1.1389,TORRENT POWER,TORRENT POWER LTD,NSI,,TORNTPOWER.NS,cached,62.0,,mapped_and_priced
+Indonesia,SARANA MENARA NUSANTARA,deletion,TOWR.JK,TOWR.JK,mapped_yahoo_search,1.1833,SARANA MENARA NUSANTARA,Sarana Menara Nusantara Tbk.,JKT,,TOWR.JK,cached,908.0,,mapped_and_priced
+Indonesia,SEMEN INDONESIA,deletion,SMGR.JK,SMGR.JK,mapped_yahoo_search,0.9868,SEMEN INDONESIA,Semen Indonesia (Persero) Tbk.,JKT,,SMGR.JK,cached,55.0,,mapped_and_priced
+Indonesia,CHANDRA ASRI PACIFIC,inclusion,TPIA.JK,TPIA.JK,mapped_yahoo_search,1.1731,CHANDRA ASRI PACIFIC,Chandra Asri Pacific Tbk.,JKT,,TPIA.JK,cached,55.0,,mapped_and_priced
+Korea,HANON SYSTEMS,deletion,018880.KS,018880.KS,mapped_yahoo_search,1.25,HANON SYSTEMS,Hanon Systems,KSC,,018880.KS,downloaded,64.0,,mapped_and_priced
+Korea,KAKAOPAY CORP,deletion,377300.KS,377300.KS,mapped_yahoo_search,1.05,KAKAOPAY,kakaopay,KSC,,377300.KS,downloaded,373.0,,mapped_and_priced
+Korea,KANGWON LAND,deletion,035250.KS,035250.KS,mapped_yahoo_search,1.25,KANGWON LAND,Kangwonland,KSC,,035250.KS,downloaded,64.0,,mapped_and_priced
+Korea,SAMSUNG SECURITIES CO,deletion,016360.KS,016360.KS,mapped_yahoo_search,0.9833,SAMSUNG SECURITIES CO,SamsungSecu,KSC,,016360.KS,downloaded,64.0,,mapped_and_priced
+Korea,ENCHEM,inclusion,348370.KQ,348370.KQ,mapped_yahoo_search,1.15,ENCHEM,Enchem,KOE,,348370.KQ,downloaded,244.0,,mapped_and_priced
+Korea,HD HYUNDAI ELECTRIC,inclusion,267260.KS,267260.KS,mapped_yahoo_search,1.25,HD HYUNDAI ELECTRIC,HD HYUNDAI ELECTRIC,KSC,,267260.KS,downloaded,64.0,,mapped_and_priced
+USA,BILL HOLDINGS,deletion,BILL,BILL,existing_repo_mapping,1.0,existing_repo_mapping,,,,BILL,downloaded,696.0,,mapped_and_priced
+USA,BORGWARNER,deletion,BWA,BWA,existing_repo_mapping,1.0,existing_repo_mapping,,,,BWA,downloaded,66.0,,mapped_and_priced
+USA,DARLING INGREDIENTS,deletion,DAR,DAR,existing_repo_mapping,1.0,existing_repo_mapping,,,,DAR,downloaded,445.0,,mapped_and_priced
+USA,DROPBOX A,deletion,DBX,DBX,existing_repo_mapping,1.0,existing_repo_mapping,,,,DBX,downloaded,1326.0,,mapped_and_priced
+USA,FMC CORP,deletion,FMC,FMC,existing_repo_mapping,1.0,existing_repo_mapping,,,,FMC,downloaded,66.0,,mapped_and_priced
+USA,GLOBE LIFE,deletion,GLPRD,GLPRD,existing_repo_mapping,1.0,existing_repo_mapping,,,,GLPRD,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,HASBRO,deletion,HAS,HAS,existing_repo_mapping,1.0,existing_repo_mapping,,,,HAS,downloaded,66.0,,mapped_and_priced
+USA,JAZZ PHARMACEUTICALS,deletion,JAZZ,JAZZ,existing_repo_mapping,1.0,existing_repo_mapping,,,,JAZZ,downloaded,66.0,,mapped_and_priced
+USA,LEAR CORP,deletion,LEA,LEA,existing_repo_mapping,1.0,existing_repo_mapping,,,,LEA,downloaded,66.0,,mapped_and_priced
+USA,LIBERTY BROADBAND C,deletion,LBRK,LBRK,existing_repo_mapping,1.0,existing_repo_mapping,,,,LBRK,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,LIBERTY GLOBAL C,deletion,LBTYK,LBTYK,existing_repo_mapping,1.0,existing_repo_mapping,,,,LBTYK,downloaded,66.0,,mapped_and_priced
+USA,LIBERTY SIRIUSXM C,deletion,LSXMK,LSXMK,existing_repo_mapping,1.0,existing_repo_mapping,,,,LSXMK,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,ROBERT HALF,deletion,RHI,RHI,existing_repo_mapping,1.0,existing_repo_mapping,,,,RHI,downloaded,66.0,,mapped_and_priced
+USA,SIRIUS XM HOLDINGS,deletion,SIRI,SIRI,existing_repo_mapping,1.0,existing_repo_mapping,,,,SIRI,downloaded,66.0,,mapped_and_priced
+USA,VAIL RESORTS,deletion,MTN,MTN,existing_repo_mapping,1.0,existing_repo_mapping,,,,MTN,downloaded,1827.0,,mapped_and_priced
+USA,CRH (US),inclusion,CRH,CRH,existing_repo_mapping,1.0,existing_repo_mapping,,,,CRH,downloaded,66.0,,mapped_and_priced
+USA,EMCOR GROUP,inclusion,EME,EME,existing_repo_mapping,1.0,existing_repo_mapping,,,,EME,downloaded,66.0,,mapped_and_priced
+USA,MICROSTRATEGY,inclusion,MSTRB2,MSTRB2,existing_repo_mapping,1.0,existing_repo_mapping,,,,MSTRB2,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,PURE STORAGE,inclusion,PSTG,PSTG,existing_repo_mapping,1.0,existing_repo_mapping,,,,PSTG,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+India,BANDHAN BANK,deletion,BANDHANBNK.NS,BANDHANBNK.NS,mapped_yahoo_search,1.0086,BANDHAN BANK,BANDHAN BANK LIMITED,NSI,,BANDHANBNK.NS,downloaded,67.0,,mapped_and_priced
+India,DIXON TECHNOLOGIES INDIA,inclusion,DIXON.BO,DIXON.BO,mapped_yahoo_search,1.0862,DIXON TECHNOLOGIES INDIA,Dixon Technologies (India) Lim,BSE,,DIXON.BO,downloaded,67.0,,mapped_and_priced
+India,OIL INDIA,inclusion,OIL.NS,OIL.NS,mapped_yahoo_search,1.0921,OIL INDIA,OIL INDIA LTD,NSI,,OIL.NS,downloaded,67.0,,mapped_and_priced
+India,ORACLE FINL SVCS SOFTW,inclusion,OFSS.NS,OFSS.NS,mapped_yahoo_search,1.0192,ORACLE,ORACLE FIN SERV SOFT LTD.,NSI,,OFSS.NS,downloaded,67.0,,mapped_and_priced
+India,PRESTIGE ESTATES PROJECT,inclusion,PRESTIGE.BO,PRESTIGE.BO,mapped_yahoo_search,1.0667,PRESTIGE ESTATES PROJECT,PRESTIGE ESTATES PROJECTS LTD.,BSE,,PRESTIGE.BO,cached,67.0,,mapped_and_priced
+India,RAIL VIKAS NIGAM,inclusion,RVNL.NS,RVNL.NS,mapped_yahoo_search,1.05,RAIL VIKAS NIGAM,RAIL VIKAS NIGAM LIMITED,NSI,,RVNL.NS,cached,67.0,,mapped_and_priced
+India,VODAFONE IDEA,inclusion,IDEA.NS,IDEA.NS,mapped_yahoo_search,1.0242,VODAFONE IDEA,VODAFONE IDEA LIMITED,NSI,,IDEA.NS,downloaded,1244.0,,mapped_and_priced
+India,ZYDUS LIFESCIENCES,inclusion,ZYDUSLIFE.NS,ZYDUSLIFE.NS,mapped_yahoo_search,1.1689,ZYDUS LIFESCIENCES,ZYDUS LIFESCIENCES LTD,NSI,,ZYDUSLIFE.NS,cached,67.0,,mapped_and_priced
+Indonesia,ANEKA TAMBANG,deletion,ANTM.JK,ANTM.JK,mapped_yahoo_search,1.1389,ANEKA TAMBANG,Aneka Tambang Tbk.,JKT,,ANTM.JK,downloaded,911.0,,mapped_and_priced
+Korea,SK IE TECHNOLOGY,deletion,361610.KS,361610.KS,mapped_yahoo_search,1.25,SK IE TECHNOLOGY,SK ie technology,KSC,,361610.KS,downloaded,802.0,,mapped_and_priced
+Korea,LS ELECTRIC,inclusion,010120.KS,010120.KS,mapped_yahoo_search,1.25,LS ELECTRIC,LS ELECTRIC,KSC,,010120.KS,downloaded,66.0,,mapped_and_priced
+USA,CAESARS ENT INC,deletion,CZR,CZR,existing_repo_mapping,1.0,existing_repo_mapping,,,,CZR,downloaded,886.0,,mapped_and_priced
+USA,CLEVELAND CLIFFS,deletion,CLF,CLF,existing_repo_mapping,1.0,existing_repo_mapping,,,,CLF,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,CONFLUENT A,deletion,CFLT,CFLT,existing_repo_mapping,1.0,existing_repo_mapping,,,,CFLT,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,ETSY,deletion,ETSY,ETSY,existing_repo_mapping,1.0,existing_repo_mapping,,,,ETSY,downloaded,1011.0,,mapped_and_priced
+USA,LATTICE SEMICONDUCTOR,deletion,LSCC,LSCC,existing_repo_mapping,1.0,existing_repo_mapping,,,,LSCC,downloaded,383.0,,mapped_and_priced
+USA,PAYLOCITY HOLDING CORP,deletion,PCTY,PCTY,existing_repo_mapping,1.0,existing_repo_mapping,,,,PCTY,downloaded,508.0,,mapped_and_priced
+USA,REPLIGEN CORP,deletion,RGEN,RGEN,existing_repo_mapping,1.0,existing_repo_mapping,,,,RGEN,downloaded,508.0,,mapped_and_priced
+USA,UIPATH A,deletion,PATH,PATH,existing_repo_mapping,1.0,existing_repo_mapping,,,,PATH,downloaded,383.0,,mapped_and_priced
+USA,UNITY SOFTWARE,deletion,U,U,existing_repo_mapping,1.0,existing_repo_mapping,,,,U,downloaded,886.0,,mapped_and_priced
+USA,FLUTTER ENTMT(US),inclusion,FLUT,FLUT,existing_repo_mapping,1.0,existing_repo_mapping,,,,FLUT,downloaded,67.0,,mapped_and_priced
+India,ALKEM LABORATORIES,inclusion,ALKEM.NS,ALKEM.NS,mapped_yahoo_search,1.1689,ALKEM LABORATORIES,ALKEM LABORATORIES LTD.,NSI,,ALKEM.NS,downloaded,67.0,,mapped_and_priced
+India,BOMBAY STOCK EXCHANGE,inclusion,BSHSL.NS,BSHSL.NS,mapped_yahoo_search,0.7378,BOMBAY,BOMBAY SUPER HYBRID SEEDS,NSI,,BSHSL.NS,downloaded,67.0,,mapped_and_priced
+India,KALYAN JEWELLERS INDIA,inclusion,KALYANKJIL.NS,KALYANKJIL.NS,mapped_yahoo_search,1.128,KALYAN JEWELLERS INDIA,KALYAN JEWELLERS IND LTD,NSI,,KALYANKJIL.NS,downloaded,67.0,,mapped_and_priced
+India,OBEROI REALTY,inclusion,OBEROIRLTY.BO,OBEROIRLTY.BO,mapped_yahoo_search,1.0389,OBEROI REALTY,OBEROI REALTY LTD.,BSE,,OBEROIRLTY.BO,downloaded,67.0,,mapped_and_priced
+India,VOLTAS,inclusion,VOLTAS.NS,VOLTAS.NS,mapped_yahoo_search,1.05,VOLTAS,VOLTAS LTD,NSI,,VOLTAS.NS,cached,67.0,,mapped_and_priced
+Korea,COSMO ADVANCED MATRLS,deletion,005070.KS,005070.KS,mapped_yahoo_search,0.9167,COSMO ADVANCED,CosmoAM&T,KSC,,005070.KS,downloaded,432.0,,mapped_and_priced
+Korea,HANWHA SOLUTIONS,deletion,009830.KS,009830.KS,mapped_yahoo_search,1.25,HANWHA SOLUTIONS,HANWHA SOLUTIONS,KSC,,009830.KS,downloaded,64.0,,mapped_and_priced
+Korea,HYUNDAI ENGR. & CONSTR,deletion,000720.KS,000720.KS,mapped_yahoo_search,1.1974,HYUNDAI,HyundaiEng&Const,KSC,,000720.KS,downloaded,64.0,,mapped_and_priced
+Korea,HYUNDAI STEEL CO,deletion,004020.KS,004020.KS,mapped_yahoo_search,1.1731,HYUNDAI STEEL CO,HYUNDAI STEEL,KSC,,004020.KS,downloaded,64.0,,mapped_and_priced
+Korea,KUMYANG,deletion,282720.KQ,282720.KQ,mapped_yahoo_search,0.5455,KUMYANG,KYGP,KOE,,282720.KQ,downloaded,303.0,,mapped_and_priced
+Korea,HYUNDAI ROTEM,inclusion,064350.KS,064350.KS,mapped_yahoo_search,1.25,HYUNDAI ROTEM,HYUNDAI ROTEM,KSC,,064350.KS,downloaded,64.0,,mapped_and_priced
+USA,BATH & BODY WORKS,deletion,BBWI,BBWI,existing_repo_mapping,1.0,existing_repo_mapping,,,,BBWI,downloaded,1327.0,,mapped_and_priced
+USA,CELSIUS HLDGS,deletion,CELH,CELH,existing_repo_mapping,1.0,existing_repo_mapping,,,,CELH,downloaded,315.0,,mapped_and_priced
+USA,CHORD ENERGY CORP,deletion,CHRD,CHRD,existing_repo_mapping,1.0,existing_repo_mapping,,,,CHRD,downloaded,69.0,,mapped_and_priced
+USA,PARAMOUNT GLOBAL B,deletion,PARA,PARA,existing_repo_mapping,1.0,existing_repo_mapping,,,,PARA,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,NUTANIX A,inclusion,NTNX,NTNX,existing_repo_mapping,1.0,existing_repo_mapping,,,,NTNX,downloaded,69.0,,mapped_and_priced
+India,ADANI GREEN ENERGY,deletion,ADANIGREEN.NS,ADANIGREEN.NS,mapped_yahoo_search,1.1643,ADANI GREEN ENERGY,ADANI GREEN ENERGY LTD,NSI,,ADANIGREEN.NS,downloaded,1119.0,,mapped_and_priced
+India,HYUNDAI MOTOR INDIA,inclusion,HYUNDAI.NS,HYUNDAI.NS,mapped_yahoo_search,1.1689,HYUNDAI MOTOR INDIA,HYUNDAI MOTOR INDIA LTD,NSI,,HYUNDAI.NS,downloaded,67.0,,mapped_and_priced
+Indonesia,INDAH KIAT PULP & PAPER,deletion,INKP.JK,INKP.JK,mapped_manual_alias,1.0,manual_alias,,,,INKP.JK,downloaded,1728.0,,mapped_and_priced
+Indonesia,MERDEKA COPPER GOLD,deletion,MDKA.JK,MDKA.JK,mapped_yahoo_search,1.1689,MERDEKA COPPER GOLD,Merdeka Copper Gold Tbk.,JKT,,MDKA.JK,downloaded,1094.0,,mapped_and_priced
+Indonesia,UNILEVER INDONESIA,deletion,UNVR.JK,UNVR.JK,mapped_yahoo_search,1.1689,UNILEVER INDONESIA,Unilever Indonesia Tbk,JKT,,UNVR.JK,cached,62.0,,mapped_and_priced
+Korea,ENCHEM,deletion,348370.KQ,348370.KQ,mapped_yahoo_search,1.15,ENCHEM,Enchem,KOE,,348370.KQ,downloaded,244.0,,mapped_and_priced
+Korea,GS HOLDINGS CORP,deletion,,,no_country_candidate,0.4333333333333333,GS HOLDINGS CORP,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Korea,HANMI PHARM CO (NEW),deletion,128940.KS,128940.KS,mapped_yahoo_search,1.05,HANMI PHARM CO,HanmiPharm,KSC,,128940.KS,downloaded,61.0,,mapped_and_priced
+Korea,KUMHO PETRO CHEMICAL CO,deletion,011780.KS,011780.KS,mapped_yahoo_search,1.0735,KUMHO PETRO CHEMICAL CO,KumhoPetrochem,KSC,,011780.KS,downloaded,61.0,,mapped_and_priced
+Korea,L&F CO,deletion,,,no_country_candidate,0.3,L&F CO,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Korea,LG CHEM PREF,deletion,051915.KS,051915.KS,mapped_yahoo_search,1.0278,LG CHEM,LGCHEM(1P),KSC,,051915.KS,downloaded,61.0,,mapped_and_priced
+Korea,LOTTE CHEMICAL CORP,deletion,011170.KS,011170.KS,mapped_yahoo_search,1.25,LOTTE CHEMICAL CORP,LOTTE CHEMICAL Corp,KSC,,011170.KS,downloaded,61.0,,mapped_and_priced
+Korea,NETMARBLE CORP,deletion,251270.KS,251270.KS,mapped_yahoo_search,1.0682,NETMARBLE CORP,Netmarble,KSC,,251270.KS,downloaded,61.0,,mapped_and_priced
+Korea,POSCO DX COMPANY,deletion,022100.KS,022100.KS,mapped_yahoo_search,0.9167,POSCO DX COMPANY,POSCO DX,KSC,,022100.KS,downloaded,363.0,,mapped_and_priced
+Korea,SAMSUNG E&A,deletion,028050.KS,028050.KS,mapped_yahoo_search,1.25,SAMSUNG E&A,SamsungE&A,KSC,,028050.KS,downloaded,61.0,,mapped_and_priced
+Korea,SK BIOSCIENCE CO,deletion,302440.KS,302440.KS,mapped_yahoo_search,0.5444,SK BIOSCIENCE CO,SKBS,KSC,,302440.KS,downloaded,921.0,,mapped_and_priced
+USA,AES CORP,deletion,AES,AES,existing_repo_mapping,1.0,existing_repo_mapping,,,,AES,downloaded,64.0,,mapped_and_priced
+USA,APA CORPORATION,deletion,APA,APA,existing_repo_mapping,1.0,existing_repo_mapping,,,,APA,downloaded,1261.0,,mapped_and_priced
+USA,CELANESE CORP,deletion,CE,CE,existing_repo_mapping,1.0,existing_repo_mapping,,,,CE,downloaded,64.0,,mapped_and_priced
+USA,CHARLES RIVER LABS INTL,deletion,CRL,CRL,existing_repo_mapping,1.0,existing_repo_mapping,,,,CRL,downloaded,1010.0,,mapped_and_priced
+USA,ENPHASE ENERGY,deletion,ENPH,ENPH,existing_repo_mapping,1.0,existing_repo_mapping,,,,ENPH,downloaded,1135.0,,mapped_and_priced
+USA,HENRY SCHEIN,deletion,HSIC,HSIC,existing_repo_mapping,1.0,existing_repo_mapping,,,,HSIC,downloaded,64.0,,mapped_and_priced
+USA,HF SINCLAIR,deletion,DINO,DINO,existing_repo_mapping,1.0,existing_repo_mapping,,,,DINO,downloaded,632.0,,mapped_and_priced
+USA,HUNTINGTON INGALLS IND,deletion,HII,HII,existing_repo_mapping,1.0,existing_repo_mapping,,,,HII,downloaded,64.0,,mapped_and_priced
+USA,KNIGHT-SWIFT TRANSPORT,deletion,KNX,KNX,existing_repo_mapping,1.0,existing_repo_mapping,,,,KNX,downloaded,64.0,,mapped_and_priced
+USA,MARKETAXESS HLDGS,deletion,MKTX,MKTX,existing_repo_mapping,1.0,existing_repo_mapping,,,,MKTX,downloaded,1513.0,,mapped_and_priced
+USA,MATCH GROUP (NEW),deletion,MTCH,MTCH,existing_repo_mapping,1.0,existing_repo_mapping,,,,MTCH,downloaded,1390.0,,mapped_and_priced
+USA,MOSAIC CO (THE),deletion,MOS,MOS,existing_repo_mapping,1.0,existing_repo_mapping,,,,MOS,downloaded,64.0,,mapped_and_priced
+USA,QORVO,deletion,QRVO,QRVO,existing_repo_mapping,1.0,existing_repo_mapping,,,,QRVO,downloaded,64.0,,mapped_and_priced
+USA,TELEFLEX,deletion,TFX,TFX,existing_repo_mapping,1.0,existing_repo_mapping,,,,TFX,downloaded,64.0,,mapped_and_priced
+USA,TORO CO,deletion,TTC,TTC,existing_repo_mapping,1.0,existing_repo_mapping,,,,TTC,downloaded,64.0,,mapped_and_priced
+USA,INTERACTIVE BKRS GRP A,inclusion,IBKR,IBKR,existing_repo_mapping,1.0,existing_repo_mapping,,,,IBKR,downloaded,64.0,,mapped_and_priced
+USA,NATERA,inclusion,NTRA,NTRA,existing_repo_mapping,1.0,existing_repo_mapping,,,,NTRA,downloaded,64.0,,mapped_and_priced
+USA,REDDIT A,inclusion,RDDT,RDDT,existing_repo_mapping,1.0,existing_repo_mapping,,,,RDDT,downloaded,64.0,,mapped_and_priced
+USA,UNITED AIRLINES HOLDINGS,inclusion,UAL,UAL,existing_repo_mapping,1.0,existing_repo_mapping,,,,UAL,downloaded,64.0,,mapped_and_priced
+India,COROMANDEL INTERNATIONAL,inclusion,COROMANDEL.BO,COROMANDEL.BO,mapped_yahoo_search,1.0888,COROMANDEL INTERNATIONAL,COROMANDEL INTERNATIONAL LTD.,BSE,,COROMANDEL.BO,downloaded,63.0,,mapped_and_priced
+India,FSN ECOMMERCE VENTURES,inclusion,NYKAA.NS,NYKAA.NS,mapped_yahoo_search,1.25,FSN,FSN E COMMERCE VENTURES,NSI,,NYKAA.NS,downloaded,63.0,,mapped_and_priced
+Korea,ECOPRO MATERIALS,deletion,450080.KS,450080.KS,mapped_yahoo_search,1.0,ECOPRO,ECOPRO MAT,KSC,,450080.KS,downloaded,364.0,,mapped_and_priced
+Korea,NCSOFT CORP,deletion,,,no_search_result,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+Korea,HANWHA SYSTEMS,inclusion,272210.KS,272210.KS,mapped_yahoo_search,1.25,HANWHA SYSTEMS,HANWHA SYSTEMS,KSC,,272210.KS,downloaded,64.0,,mapped_and_priced
+Korea,SAMYANG FOODS,inclusion,003230.KS,003230.KS,mapped_yahoo_search,1.2065,SAMYANG FOODS,SamyangFood,KSC,,003230.KS,downloaded,64.0,,mapped_and_priced
+USA,ALBEMARLE CORP,deletion,ALBPRA,ALBPRA,existing_repo_mapping,1.0,existing_repo_mapping,,,,ALBPRA,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,ALLY FINANCIAL,deletion,ALLY,ALLY,existing_repo_mapping,1.0,existing_repo_mapping,,,,ALLY,downloaded,67.0,,mapped_and_priced
+USA,ASSURANT,deletion,AIZN,AIZN,existing_repo_mapping,1.0,existing_repo_mapping,,,,AIZN,downloaded,67.0,,mapped_and_priced
+USA,BIO-RAD LABORATORIES A,deletion,BIO,BIO,existing_repo_mapping,1.0,existing_repo_mapping,,,,BIO,downloaded,1453.0,,mapped_and_priced
+USA,BIO-TECHNE CORP,deletion,TECH,TECH,existing_repo_mapping,1.0,existing_repo_mapping,,,,TECH,downloaded,1073.0,,mapped_and_priced
+USA,CARMAX,deletion,KMX,KMX,existing_repo_mapping,1.0,existing_repo_mapping,,,,KMX,downloaded,67.0,,mapped_and_priced
+USA,DAYFORCE,deletion,DAY,DAY,existing_repo_mapping,1.0,existing_repo_mapping,,,,DAY,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,EASTMAN CHEMICAL CO,deletion,EMN,EMN,existing_repo_mapping,1.0,existing_repo_mapping,,,,EMN,downloaded,67.0,,mapped_and_priced
+USA,EPAM SYSTEMS,deletion,EPAM,EPAM,existing_repo_mapping,1.0,existing_repo_mapping,,,,EPAM,downloaded,1576.0,,mapped_and_priced
+USA,EXACT SCIENCES CORP,deletion,EXAS,EXAS,existing_repo_mapping,1.0,existing_repo_mapping,,,,EXAS,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,FORTUNE BRANDS INNOV,deletion,FBIN,FBIN,existing_repo_mapping,1.0,existing_repo_mapping,,,,FBIN,downloaded,67.0,,mapped_and_priced
+USA,FRANKLIN RESOURCES,deletion,BEN,BEN,existing_repo_mapping,1.0,existing_repo_mapping,,,,BEN,downloaded,67.0,,mapped_and_priced
+USA,HOST HOTELS & RESORTS,deletion,HST,HST,existing_repo_mapping,1.0,existing_repo_mapping,,,,HST,downloaded,67.0,,mapped_and_priced
+USA,INTERPUBLIC GROUP OF COS,deletion,IPG,IPG,existing_repo_mapping,1.0,existing_repo_mapping,,,,IPG,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,MANHATTAN ASSOCIATES,deletion,MANH,MANH,existing_repo_mapping,1.0,existing_repo_mapping,,,,MANH,downloaded,507.0,,mapped_and_priced
+USA,MGM RESORTS INTL,deletion,MGM,MGM,existing_repo_mapping,1.0,existing_repo_mapping,,,,MGM,downloaded,67.0,,mapped_and_priced
+USA,MODERNA,deletion,MRNA,MRNA,existing_repo_mapping,1.0,existing_repo_mapping,,,,MRNA,downloaded,67.0,,mapped_and_priced
+USA,OVINTIV(US),deletion,OVV,OVV,existing_repo_mapping,1.0,existing_repo_mapping,,,,OVV,downloaded,695.0,,mapped_and_priced
+USA,ROKU A,deletion,ROKU,ROKU,existing_repo_mapping,1.0,existing_repo_mapping,,,,ROKU,downloaded,1516.0,,mapped_and_priced
+USA,SEI INVESTMENTS CO,deletion,SEIC,SEIC,existing_repo_mapping,1.0,existing_repo_mapping,,,,SEIC,downloaded,67.0,,mapped_and_priced
+USA,SKYWORKS SOLUTIONS,deletion,SWKS,SWKS,existing_repo_mapping,1.0,existing_repo_mapping,,,,SWKS,downloaded,67.0,,mapped_and_priced
+USA,SMITH (A.O.) CORP,deletion,AOS,AOS,existing_repo_mapping,1.0,existing_repo_mapping,,,,AOS,downloaded,67.0,,mapped_and_priced
+USA,SOUTHWEST AIRLINES CO,deletion,LUV,LUV,existing_repo_mapping,1.0,existing_repo_mapping,,,,LUV,downloaded,67.0,,mapped_and_priced
+USA,STANLEY BLACK & DECKER,deletion,SWK,SWK,existing_repo_mapping,1.0,existing_repo_mapping,,,,SWK,downloaded,67.0,,mapped_and_priced
+USA,VIATRIS,deletion,VTRS,VTRS,existing_repo_mapping,1.0,existing_repo_mapping,,,,VTRS,downloaded,67.0,,mapped_and_priced
+USA,WALGREENS BOOTS ALLIANCE,deletion,WBA,WBA,existing_repo_mapping,1.0,existing_repo_mapping,,,,WBA,no_price_data,0.0,Yahoo returned no historical rows.,mapped_but_yahoo_has_no_event_window_history
+USA,WESTLAKE CORPORATION,deletion,WLK,WLK,existing_repo_mapping,1.0,existing_repo_mapping,,,,WLK,downloaded,1826.0,,mapped_and_priced
+USA,WYNN RESORTS,deletion,WYNN,WYNN,existing_repo_mapping,1.0,existing_repo_mapping,,,,WYNN,downloaded,67.0,,mapped_and_priced
+India,SONA BLW PRECISION,deletion,SONACOMS.NS,SONACOMS.NS,mapped_yahoo_search,1.1149,SONA BLW PRECISION,SONA BLW PRECISION FRGS L,NSI,,SONACOMS.NS,cached,618.0,,mapped_and_priced
+India,THERMAX,deletion,THERMAX.NS,THERMAX.NS,mapped_yahoo_search,1.0735,THERMAX,THERMAX LTD,NSI,,THERMAX.NS,cached,370.0,,mapped_and_priced
+India,HITACHI ENERGY INDIA,inclusion,POWERINDIA.NS,POWERINDIA.NS,mapped_yahoo_search,1.1731,HITACHI ENERGY INDIA,HITACHI ENERGY INDIA LTD,NSI,,POWERINDIA.NS,cached,68.0,,mapped_and_priced
+India,SWIGGY,inclusion,SWIGGY.NS,SWIGGY.NS,mapped_yahoo_search,0.8816,SWIGGY,SWIGGY LIMITED,NSI,,SWIGGY.NS,cached,68.0,,mapped_and_priced
+India,VISHAL MEGA MART,inclusion,VMM.NS,VMM.NS,mapped_yahoo_search,1.05,VISHAL MEGA MART,VISHAL MEGA MART LIMITED,NSI,,VMM.NS,cached,68.0,,mapped_and_priced
+India,WAAREE ENERGIES,inclusion,WAAREEENER.NS,WAAREEENER.NS,mapped_yahoo_search,1.05,WAAREE ENERGIES,WAAREE ENERGIES LIMITED,NSI,,WAAREEENER.NS,cached,68.0,,mapped_and_priced
+Indonesia,ALAMTRI RES INDONESIA,deletion,ADRO.JK,ADRO.JK,mapped_yahoo_search,1.0585,ALAMTRI RES INDONESIA,Alamtri Resources Indonesia Tbk,JKT,,ADRO.JK,downloaded,66.0,,mapped_and_priced
+Indonesia,DIAN SWASTATIKA SENTOSA,inclusion,DSSA.JK,DSSA.JK,mapped_yahoo_search,1.1833,DIAN SWASTATIKA SENTOSA,Dian Swastatika Sentosa Tbk,JKT,,DSSA.JK,downloaded,66.0,,mapped_and_priced
+Indonesia,PETRINDO JAYA KREASI,inclusion,CUAN.JK,CUAN.JK,mapped_yahoo_search,1.1731,PETRINDO JAYA KREASI,Petrindo Jaya Kreasi Tbk.,JKT,,CUAN.JK,downloaded,66.0,,mapped_and_priced
+Korea,CJ CHEILJEDANG CORP,deletion,097955.KS,097955.KS,mapped_yahoo_search,1.125,CJ CHEILJEDANG CORP,CJ CheilJedang(1P),KSC,,097955.KS,downloaded,69.0,,mapped_and_priced
+Korea,LG INNOTEK CO,deletion,011070.KS,011070.KS,mapped_yahoo_search,1.15,LG INNOTEK CO,LG Innotek,KSC,,011070.KS,downloaded,69.0,,mapped_and_priced
+Korea,SKC CO,deletion,011790.KS,011790.KS,mapped_yahoo_search,0.85,SKC CO,SKC,KSC,,011790.KS,downloaded,1106.0,,mapped_and_priced
+Korea,DOOSAN CORP,inclusion,000155.KS,000155.KS,mapped_yahoo_search,1.0278,DOOSAN CORP,DOOSAN(1P),KSC,,000155.KS,downloaded,69.0,,mapped_and_priced
+Korea,HYOSUNG HEAVY INDUSTRIES,inclusion,298040.KS,298040.KS,mapped_yahoo_search,0.9559,HYOSUNG HEAVY INDUSTRIES,HYOSUNG HEAVY,KSC,,298040.KS,downloaded,69.0,,mapped_and_priced
+Korea,LIG NEX1,inclusion,,,no_country_candidate,,,,,No Yahoo quote matched the expected country suffix/exchange with sufficient name similarity.,,,,,name_search_unmapped
+USA,AVANTOR,deletion,AVTR,AVTR,existing_repo_mapping,1.0,existing_repo_mapping,,,,AVTR,downloaded,1383.0,,mapped_and_priced
+USA,CONAGRA BRANDS,deletion,CAG,CAG,existing_repo_mapping,1.0,existing_repo_mapping,,,,CAG,downloaded,67.0,,mapped_and_priced
+USA,LKQ CORP,deletion,LKQ,LKQ,existing_repo_mapping,1.0,existing_repo_mapping,,,,LKQ,downloaded,67.0,,mapped_and_priced
+USA,THE CAMPBELL'S,deletion,CPB,CPB,existing_repo_mapping,1.0,existing_repo_mapping,,,,CPB,downloaded,67.0,,mapped_and_priced
+USA,ROCKET LAB CORP,inclusion,RKLB,RKLB,existing_repo_mapping,1.0,existing_repo_mapping,,,,RKLB,downloaded,67.0,,mapped_and_priced
+USA,TAPESTRY,inclusion,TPR,TPR,existing_repo_mapping,1.0,existing_repo_mapping,,,,TPR,downloaded,67.0,,mapped_and_priced

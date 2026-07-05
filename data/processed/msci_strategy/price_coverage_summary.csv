@@ -1,0 +1,9 @@
+country,event_type,standard_events,events_with_ticker,events_with_cached_price,missing_ticker,missing_cached_price_after_ticker
+India,deletion,36,33,32,3,1
+India,inclusion,120,114,112,6,2
+Indonesia,deletion,32,31,30,1,1
+Indonesia,inclusion,20,20,19,0,1
+Korea,deletion,91,78,78,13,0
+Korea,inclusion,66,57,53,9,4
+USA,deletion,221,217,176,4,41
+USA,inclusion,205,197,170,8,27

@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+.venv/
+env/
+.matplotlib-cache/
+.vscode/
+data/intermediate/yahoo_event_windows/
+data/intermediate/yahoo_multicountry/
+data/processed/msci_strategy/portfolio_daily_returns.csv
+data/processed/msci_strategy/beta_neutral_*.csv

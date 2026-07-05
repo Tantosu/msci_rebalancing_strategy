@@ -1,0 +1,5 @@
+strategy_family,country,event_type,strategy,n_trades,cumulative_net_return,average_event_net_return,hit_rate_net,volatility_event_net,sharpe_annualized_net,max_drawdown_net,average_holding_days,turnover
+buy_hold,Indonesia,deletion,buy_hold_announce_to_effective,30,5.287354218687417,0.06741078454488973,0.8,0.09682467637741221,2.6419498747175796,-0.14575660293100645,17.5,60.0
+best_simple_timing,Indonesia,deletion,announce_d-1_to_d+1,30,3.6791595866583062,0.05378152429886473,0.9,0.045701395530010236,11.975760798170356,-0.1005917953177291,2.433333333333333,60.0
+confirmed_flow_momentum,USA,inclusion,confirmed_flow_momentum_top20_effective_d-5_to_d-1,51,1.1629527560828405,0.016726828591052425,0.6078431372549019,0.05555615919016496,2.0810887966906537,-0.2024068511556426,5.2745098039215685,102.0
+developed_low_vol_deletion,Indonesia,deletion,developed_low_vol_deletion_announce_d-1_to_d+1,26,2.600141388842848,0.05144922256166437,0.9230769230769231,0.044454817844427404,11.802571803091542,-0.1005917953177291,2.423076923076923,52.0
